@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #7D4729 0%, rgba(188, 73, 8, 0.76) 100%);
+}
+label {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #3e3e3e;
+    box-shadow: 0 0 0 4px #303030;
+    border-radius: 75px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label input {
+    appearance: none;
+}
+label span{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    background: #303030; /*BOTAR IMAGEM*/
+    background-size: auto 150PX;
+}
