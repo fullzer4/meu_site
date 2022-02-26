@@ -28,8 +28,21 @@ label input {
 }
 label span{
     position: absolute;
-    width: 175px;
-    height: 150px;
-    background: #303030; /*BOTAR IMAGEM*/
-    background-size: auto 150PX;
+    left: 0;
+    width: 190px;
+    height: 170px;
+    background: url(/img/Sol.svg); /*BOTAR IMAGEM*/
+    background-size: auto 170PX;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+    transform: rotate(360deg);
+    transform-origin: 75px;
+}
+
+label input:checked ~ span {
+    left: 150px;
+    background: url(/img/Lua.svg); /*BOTAR IMAGEM*/
+    background-size: auto 165PX;
+    background-repeat: no-repeat;
+    transform: rotate(-180deg);
 }
