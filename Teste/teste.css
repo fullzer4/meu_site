@@ -11,38 +11,25 @@ body {
     min-height: 100vh;
     background: linear-gradient(180deg, #7D4729 0%, rgba(188, 73, 8, 0.76) 100%);
 }
-label {
-    position: relative;
-    width: 300px;
-    height: 150px;
-    background-color: #3e3e3e;
-    box-shadow: 0 0 0 4px #303030;
-    border-radius: 75px;
-    cursor: pointer;
+
+.botao{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-label input {
-    appearance: none;
-}
-label span{
-    position: absolute;
-    left: 0;
-    width: 190px;
-    height: 170px;
-    background: url(/img/Sol.svg); /*BOTAR IMAGEM*/
-    background-size: auto 170PX;
-    background-repeat: no-repeat;
-    transition: 1.5s;
-    transform: rotate(360deg);
-    transform-origin: 75px;
+    position: relative;
+    background-color: #000000;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
 }
 
-label input:checked ~ span {
-    left: 150px;
-    background: url(/img/Lua.svg); /*BOTAR IMAGEM*/
-    background-size: auto 165PX;
+.botao-input{
+    appearance: none;
+}
+
+.botao-input-imagem{
+    display: flex;
+    background-image: url(/img/Sol.svg);
     background-repeat: no-repeat;
-    transform: rotate(-180deg);
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
 }
