@@ -70,3 +70,39 @@ input:checked[type="checkbox"]::before {
     left: 40px;
     background-color: #ffffff;
 }
+
+.conteudo{
+    border-top: 0.4px solid #000000;
+    margin-bottom: 40px;
+}
+
+.conteudo-primario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.conteudo-primario-itens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo-primario-itens h1{
+    font-family: 'Roboto', sans-serif;
+    color: #070707;
+    font-weight: 400;
+    font-size: 62px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.conteudo-primario-itens h2{
+    font-family: 'Roboto', sans-serif;
+    color: #070707;
+    font-weight: 400;
+    font-size: 42px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+}
