@@ -1,14 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    font-size: 100%;
     background: linear-gradient(180deg, #7D4729 0%, rgba(188, 73, 8, 0.76) 100%);
 }
 
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.cabecalho-itens{
+    display: flex;
+    gap: 152px;
+}
+
+.cabecalho-itens-texto{
+    font-family: 'Roboto', sans-serif;
+    color: #070707;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.center-botao {
+    appearance: a;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    appearance: none;
+    background-color: #1d1b1b;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 2);
+    transition: 1.5s;
+
+}
+
+input:checked[type="checkbox"] {
+    background-color: aliceblue;
+}
+
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: #cf721b;
+    box-shadow: inset 0 0 5px rgba(224, 211, 17, 0.8);
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+input:checked[type="checkbox"]::before {
+    left: 40px;
+    background-color: #ffffff;
+}
