@@ -73,7 +73,7 @@ input:checked[type="checkbox"]::before {
 
 .conteudo{
     border-top: 0.4px solid #000000;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .conteudo-primario{
@@ -82,6 +82,7 @@ input:checked[type="checkbox"]::before {
     align-items: center;
     justify-content: space-around;
     padding: 40px;
+    padding-top: 60px;
 }
 
 .conteudo-primario-itens{
@@ -105,4 +106,20 @@ input:checked[type="checkbox"]::before {
     font-weight: 400;
     font-size: 42px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.conteudo-primario-imagem {
+    height: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.conteudo-secundario-links {
+    display: flex;
+    height: 150px;
 }
