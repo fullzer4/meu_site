@@ -132,7 +132,7 @@ input:checked[type="checkbox"]::before {
 }
 
 .painel{
-    width: 850px;
+    width: 950px;
     height: 500px;
     background: rgba(255, 255, 255, 0.24);
     border: 2px solid #FFFFFF;
@@ -180,7 +180,7 @@ input:checked[type="checkbox"]::before {
 
 .postagem-painel-1{
     width: 1250px;
-    height: 1000px;
+    height: 1050px;
     background: rgba(255, 255, 255, 0.24);
     border: 2px solid #FFFFFF;
     border-radius: 10px;
@@ -196,6 +196,7 @@ input:checked[type="checkbox"]::before {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
 }
 
 .postagem-texto-1 h5{
@@ -211,7 +212,7 @@ input:checked[type="checkbox"]::before {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 32px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
     text-align: center;
     margin-bottom: 25px;
@@ -227,4 +228,88 @@ input:checked[type="checkbox"]::before {
     border-bottom: #ffffff 2px solid;
 }
 
+.postagem-video-1 {
+    border-radius: 15px;
+}
+
+.postagem-painel-2{
+    width: 1250px;
+    height: 1150px;
+    background: rgba(255, 255, 255, 0.24);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postagem-titulo-2{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 75px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15px;
+}
+
+.postagem-2-divisao-1{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.postagem-2-divisao-1-texto{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 45px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.postagem-2-divisao-1-video{
+    border-radius: 25px;
+    height: 525px;
+}
+
+.postagem-2-divisao-2{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+    gap: 20px;
+}
+
+.postagem-2-divisao-2-imagem{
+    height: 425px;
+}
+
+.postagem-2-divisao-2-texto {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 45px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.postagem-2-divisao-2-texto a{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 45px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: #ffffff 2px solid;
+}
 /*Ate aqui so para Projetos */
