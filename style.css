@@ -179,7 +179,7 @@ input:checked[type="checkbox"]::before {
 }
 
 .postagem-painel-1{
-    width: 1500px;
+    width: 1350px;
     height: 1000px;
     background: rgba(255, 255, 255, 0.24);
     border: 2px solid #FFFFFF;
