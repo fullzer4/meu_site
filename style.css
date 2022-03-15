@@ -107,7 +107,8 @@ input:checked[type="checkbox"]::before {
 }
 
 .conteudo-primario-imagem {
-    height: 400px;
+    height: 500px;
+    width: 450px;
 }
 
 .conteudo-secundario {
@@ -131,15 +132,15 @@ input:checked[type="checkbox"]::before {
 }
 
 .painel{
-    width: 800px;
-    height: 450px;
+    width: 850px;
+    height: 500px;
     background: rgba(255, 255, 255, 0.24);
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    align-items: center;
+    align-items: center;  
 }
 .painel-texto{
     display: flex;
@@ -154,15 +155,65 @@ input:checked[type="checkbox"]::before {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 40px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .painel-texto h4 {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 30px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 /*Ate aqui so para Home/Index */
+/*Começo Projetos */
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 20px;
+}
+
+.postagem-painel-1{
+    width: 1500px;
+    height: 1000px;
+    background: rgba(255, 255, 255, 0.24);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postagem-texto-1{
+    text-align: center;
+}
+
+.postagem-texto-1 h5{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.postagem-texto-1 h6{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.postagem-texto-1 a{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.4);
+}
