@@ -106,6 +106,7 @@ body {
     flex-direction: row;
     gap: 30px;
     margin: 30px;
+    margin-bottom: 60px;
 }
 
 .texto-sobremim-conteudo-principal{
