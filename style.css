@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -15,12 +16,15 @@ body {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    justify-content: flex-start;
     height: 80px;
+    gap: 150px;
+    background: rgba(163, 12, 188, 0.61);
 }
 
 .container-checkbox-menu{
     height: 100%;
-    display: block;
+    display: flex;
 }
 
 #check-menu{
@@ -75,4 +79,65 @@ body {
     top: 35px;
     background: #201E1E;
     right: 10px;
+}
+
+.container-links-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 180px;
+}
+
+.links-menu{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    color: #201E1E;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.sobremim-conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 30px;
+}
+
+.texto-sobremim-conteudo-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-sobremim-conteudo-principal h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.texto-sobremim-conteudo-principal h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.imagem-sobremim-conteudo-principal{
+    margin-right: 20px;
+}
+.imagem-sobremim-conteudo-principal img{
+    height: 400px;
+    border-radius: 75px;
+}
+
+.carousel {
+    background: #A30CBC;
 }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #0E0E0E;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    height: 80px;
+    gap: 150px;
+    background: rgba(163, 12, 188, 0.61);
+}
+
+.container-checkbox-menu{
+    height: 100%;
+    display: flex;
+}
+
+#check-menu{
+    position: absolute;
+    opacity: 0;
+}
+
+.animacao-menu{
+    cursor: pointer;
+    position: relative;
+    display:flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.animacao-menu span{ 
+    position: absolute;
+    display: flex;
+    height: 10px;
+    width: 50px;
+    border-radius: 25px;
+    transition: 0.25s;
+    background-color: #A30CBC;
+} /* tracos */
+
+.animacao-menu span:nth-child(1){
+    top: 15px;
+} /* traco1 */
+.animacao-menu span:nth-child(2){
+    top: 35px;
+} /* traco2 */
+.animacao-menu span:nth-child(3){
+    top: 55px;
+} /* traco3 */
+
+#check-menu:checked + label span:nth-child(1){
+    transform: rotate(-60deg);
+    top: 35px;
+    background: #201E1E;
+    left: 15px;
+} 
+
+#check-menu:checked + label span:nth-child(2){
+    opacity: 0;
+}
+
+#check-menu:checked + label span:nth-child(3){
+    transform: rotate(60deg);
+    top: 35px;
+    background: #201E1E;
+    right: 10px;
+}
+
+.container-links-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 180px;
+}
+
+.links-menu{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    color: #201E1E;
+}
