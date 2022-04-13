@@ -140,4 +140,40 @@ body {
 
 .carousel {
     background: #A30CBC;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    text-align: flex-end;
+}
+
+.container-botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botao-vermais {
+    width: 200px;
+    height: 60px;
+    background-color: #201E1E;
+    border-radius: 25px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0),0 0 0 0 rgba(0,0,0,0) !important;
+    border: solid 1px #201E1E;
+    transition: 1s;
+    cursor: pointer;
+}
+.botao-vermais:hover {
+    background-color: rgba(92, 11, 107, 0.996);
+    border: solid 1px #201E1E;
 }
