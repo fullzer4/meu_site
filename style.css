@@ -60,9 +60,10 @@ body {
 } /* traco3 */
 
 #check-menu:checked + label span:nth-child(1){
-    transform: rotate(-63deg);
+    transform: rotate(-60deg);
     top: 35px;
     background: #201E1E;
+    left: 15px;
 } 
 
 #check-menu:checked + label span:nth-child(2){
@@ -70,7 +71,8 @@ body {
 }
 
 #check-menu:checked + label span:nth-child(3){
-    transform: rotate(63deg);
+    transform: rotate(60deg);
     top: 35px;
     background: #201E1E;
+    right: 10px;
 }
