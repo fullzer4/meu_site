@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300&display=swap');
 
+:root {
+    --bg: #0E0E0E;
+    --navbg: rgba(163, 12, 188, 0.61);
+    --btmenu: #A30CBC;
+    --btmenupa: #201E1E;
+    --letralinks: #201E1E;
+    --lertaSobreM: #FFFFFF;
+    --carouselbg: #A30CBC;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +18,7 @@
 }
 
 body {
-    background: #0E0E0E;
+    background: var(--bg);
 }
 
 .menu {
@@ -19,7 +29,7 @@ body {
     justify-content: flex-start;
     height: 80px;
     gap: 150px;
-    background: rgba(163, 12, 188, 0.61);
+    background: var(--navbg);
 }
 
 .container-checkbox-menu{
@@ -50,7 +60,7 @@ body {
     width: 50px;
     border-radius: 25px;
     transition: 0.25s;
-    background-color: #A30CBC;
+    background-color: var(--btmenu);
 } /* tracos */
 
 .animacao-menu span:nth-child(1){
@@ -66,7 +76,7 @@ body {
 #check-menu:checked + label span:nth-child(1){
     transform: rotate(-60deg);
     top: 35px;
-    background: #201E1E;
+    background:  var(--btmenupa);
     left: 15px;
 } 
 
@@ -77,7 +87,7 @@ body {
 #check-menu:checked + label span:nth-child(3){
     transform: rotate(60deg);
     top: 35px;
-    background: #201E1E;
+    background: var(--btmenupa);
     right: 10px;
 }
 
@@ -92,7 +102,7 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 52px;
-    color: #201E1E;
+    color: var(--letralinks);
 }
 
 .conteudo-principal{
@@ -119,7 +129,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
-    color: #FFFFFF;
+    color: var(--lertaSobreM);
 }
 
 .texto-sobremim-conteudo-principal h2{
@@ -127,7 +137,7 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
-    color: #FFFFFF;
+    color: var(--lertaSobreM);
     margin-top: 10px;
 }
 
@@ -140,7 +150,7 @@ body {
 }
 
 .carousel {
-    background: #A30CBC;
+    background: var(--carouselbg);
     height: 650px;
     display: flex;
     flex-direction: column;
