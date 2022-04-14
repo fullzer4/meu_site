@@ -11,12 +11,15 @@
 .menu {
     display: flex;
     flex-direction: row;
+    background: rgba(163, 12, 188, 0.61);
 }
 
 #menu-botao{
-    position: relative;
+    position: absolute;
     width: 100%;
     max-width: 20px;
+    top: 0;
+    left: 0;
 }
 
 .menu-botao-in{
@@ -43,8 +46,4 @@
 
 .hanima3{
     transform: rotate(-45deg) translate(3px, -3px);
-}
-
-.Manima{
-    background: rgba(163, 12, 188, 0.61);
 }
