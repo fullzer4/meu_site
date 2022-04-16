@@ -9,14 +9,31 @@
 }
 
 body{
-    background: #0E0E0E;
+    background: var(--corfundo);
+}
+
+:root {
+    --cormenu: rgba(163, 12, 188, 0.61);
+    --corfundo: #0E0E0E;
+    --corham1: #A30CBC;
+    --corham2: #201E1E;
+    --cormenuL: #201E1E;
 }
 
 #menu {
     display: none;
     flex-direction: row;
-    background: rgba(163, 12, 188, 0.61);
+    justify-content: space-around;
+    background: var(--cormenu);
 }
+
+.menu-links {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300; 
+    color: var(--cormenuL);
+    padding: 5px;
+}   
 
 #menu-botao{
     position: absolute;
@@ -29,21 +46,21 @@ body{
 .menu-botao-in{
     position: relative;
     width: 100%;
-    max-width: 18px;
+    max-width: 20px;
 }
 
 .menu-botao-ham{
     width: 100%;
-    height: 3px;
-    margin: 3px;
+    height: 4px;
+    margin: 4px;
     border-radius: 5px;
-    background: #A30CBC;
+    background: var(--corham1);
     transition: all .3s;
 }
 
 .hanima1{
-    transform: rotate(45deg) translate(5px, 4px);
-    background: #201E1E;
+    transform: rotate(55deg) translate(7px,2px);
+    background: var(--corham2);
 }
 
 .hanima2{
@@ -51,6 +68,6 @@ body{
 }
 
 .hanima3{
-    transform: rotate(-45deg) translate(3px, -3px);
-    background: #201E1E;
+    transform: rotate(-55deg) translate(8px, -4px);
+    background: var(--corham2);
 }
