@@ -1,6 +1,7 @@
 const botao = document.getElementById('menu-botao');
 const ham = document.querySelectorAll('.menu-botao-ham');
 const nave = document.getElementById('menu');
+const conteudo = document.getElementById('conteudo');
 let active = false;
 
 botao.onclick = ()=> {
