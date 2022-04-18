@@ -115,7 +115,7 @@ body{
     height: 225px;
 }
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1920px){
     .sobremim-texto-titulo{
         font-size: 2rem;
     }
