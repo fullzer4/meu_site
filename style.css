@@ -49,7 +49,7 @@ body{
 .menu-botao-in{
     position: relative;
     width: 100%;
-    max-width: 25px;
+    max-width: 45px;
 }
 
 .menu-botao-ham{
@@ -114,6 +114,10 @@ body{
     border-radius: 45px;
     height: 500px;
 }
+
+/*#################################################*/
+/*                      Telas                     */
+/*################################################*/
 
 @media screen and (max-width: 1920px){
     #menu-botao{
@@ -202,11 +206,11 @@ body{
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(6px,6px);
+        transform: rotate(55deg) translate(12px,8px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(10px, -12px);
+        transform: rotate(-55deg) translate(5px, -8px);
     }
 
     .menu-links{
@@ -242,12 +246,38 @@ body{
         height: 325px;
     } 
 
-    /*feito os de baixo*/
 }
 
 /*ate aqui tudo feito*/
 
 @media screen and (max-width: 900px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 35px;
+    }
+    
+    .menu-botao-ham{
+        height: 7px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(10px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(5px, -8px);
+    }
+
+    .menu-links{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
     .sobremim{
         padding: 25px;
     }
@@ -278,6 +308,33 @@ body{
 }
 
 @media screen and (max-width: 695px){
+    #menu-botao{
+        max-width: 35px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 30px;
+    }
+    
+    .menu-botao-ham{
+        height: 6px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(8px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(5px, -8px);
+    }
+
+    .menu-links{
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+
     .sobremim{
         padding: 20px;
     }
@@ -308,6 +365,33 @@ body{
 }
 
 @media screen and (max-width: 555px){
+    #menu-botao{
+        max-width: 30px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 25px;
+    }
+    
+    .menu-botao-ham{
+        height: 5px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(3px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(5px, -12px);
+    }
+
+    .menu-links{
+        font-size: 1.2rem;
+        padding: 7px;
+    }
+
     .sobremim{
         padding: 10px;
     }
@@ -321,6 +405,8 @@ body{
         height: 180px;
     }
 }
+
+/*fazer teste*/
 
 @media screen and (max-width: 476px){
     .sobremim{
