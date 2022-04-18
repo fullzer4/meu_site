@@ -115,4 +115,12 @@ body{
     height: 225px;
 }
 
-/*fazer o ajuste de tamanhos de tela*/
+@media screen and (max-width: 1250px){
+    .sobremim-texto-titulo{
+        font-size: 2rem;
+    }
+}
+
+/*fazer o ajuste de tamanhos de tela
+800 px
+*/
