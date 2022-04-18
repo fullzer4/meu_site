@@ -119,6 +119,8 @@ body{
 /*                      Telas                     */
 /*################################################*/
 
+/*testat com resoluções maiores*/
+
 @media screen and (max-width: 1920px){
     #menu-botao{
         max-width: 45px;
