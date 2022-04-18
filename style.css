@@ -131,16 +131,16 @@ body{
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(5px,4px);
+        transform: rotate(55deg) translate(11px,4px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(8px, -8px);
+        transform: rotate(-55deg) translate(12px, -10px);
     }
 
     .menu-links{
-        font-size: 1rem;
-        padding: 5px;
+        font-size: 2rem;
+        padding: 10px;
     }
     .sobremim{
         padding: 40px;
@@ -187,6 +187,33 @@ body{
 }
 
 @media screen and (max-width: 1250px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 10px;
+    }
+    
+    .menu-botao-in{
+        max-width: 40px;
+    }
+    
+    .menu-botao-ham{
+        height: 8px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(6px,6px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(10px, -12px);
+    }
+
+    .menu-links{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
     .sobremim{
         padding: 25px;
     }
@@ -217,6 +244,8 @@ body{
 
     /*feito os de baixo*/
 }
+
+/*ate aqui tudo feito*/
 
 @media screen and (max-width: 900px){
     .sobremim{
