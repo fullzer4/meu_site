@@ -124,7 +124,7 @@ body{
 @media screen and (max-width: 1920px){
     #menu-botao{
         max-width: 45px;
-        padding: 10px;
+        padding: 5px;
     }
     
     .menu-botao-in{
@@ -132,16 +132,16 @@ body{
     }
     
     .menu-botao-ham{
-        height: 10px;
+        height: 9px;
         border-radius: 5px;
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(12px,4px);
+        transform: rotate(55deg) translate(10px,4px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(16px, -10px);
+        transform: rotate(-55deg) translate(12px, -10px);
     }
 
     .menu-links{
