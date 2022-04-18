@@ -84,7 +84,7 @@ body{
 .sobremim {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 40px;
     gap: 40px;
     align-items: center;
 }
@@ -98,29 +98,227 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
     color: var(--corsmtexto);
+    font-size: 3.5rem;
 }
 
 .sobremim-texto-descricao {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.8rem;
     color: var(--corsmtexto);
+    font-size: 2rem;
 }
 
 .sobremim-imagem img{
     border-radius: 45px;
-    height: 225px;
+    height: 500px;
 }
 
 @media screen and (max-width: 1920px){
+    #menu-botao{
+        max-width: 50px;
+        padding: 10px;
+    }
+    
+    .menu-botao-in{
+        max-width: 50px;
+    }
+    
+    .menu-botao-ham{
+        height: 10px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(5px,4px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(8px, -8px);
+    }
+
+    .menu-links{
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .sobremim{
+        padding: 40px;
+    }
     .sobremim-texto-titulo{
+        font-size: 3.5rem;
+    }
+    .sobremim-texto-descricao{
         font-size: 2rem;
+    }
+    .sobremim-imagem img{
+        height: 500px;
     }
 }
 
-/*fazer o ajuste de tamanhos de tela
-800 px
-*/
+@media screen and (max-width: 1725px){
+    .sobremim{
+        padding: 40px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 3rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 1.5rem;
+    }
+    .sobremim-imagem img{
+        height: 425px;
+    } 
+}
+
+@media screen and (max-width: 1450px){
+    .sobremim{
+        padding: 40px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 2.5rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 1.5rem;
+    }
+    .sobremim-imagem img{
+        height: 400px;
+    } 
+}
+
+@media screen and (max-width: 1250px){
+    .sobremim{
+        padding: 25px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 1.9rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 1.25rem;
+    }
+    .sobremim-imagem img{
+        height: 350px;
+    } 
+}
+
+@media screen and (max-width: 1030px){
+    .sobremim{
+        padding: 25px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 1.6rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 1rem;
+    }
+    .sobremim-imagem img{
+        height: 325px;
+    } 
+
+    /*feito os de baixo*/
+}
+
+@media screen and (max-width: 900px){
+    .sobremim{
+        padding: 25px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 1.4rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 1rem;
+    }
+    .sobremim-imagem img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 807px){
+    .sobremim{
+        padding: 20px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 1.2rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 0.8rem;
+    }
+    .sobremim-imagem img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 695px){
+    .sobremim{
+        padding: 20px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 1rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 0.8em;
+    }
+    .sobremim-imagem img{
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 615px){
+    .sobremim{
+        padding: 20px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 0.9rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 0.6em;
+    }
+    .sobremim-imagem img{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 555px){
+    .sobremim{
+        padding: 10px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 0.7rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 0.5rem;
+    }
+    .sobremim-imagem img{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 476px){
+    .sobremim{
+        padding: 10px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 0.7rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 0.5rem;
+    }
+    .sobremim-imagem img{
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 455px){
+    .sobremim{
+        padding: 5px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 0.65rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 0.4rem;
+    }
+    .sobremim-imagem img{
+        height: 150px;
+    }
+}
