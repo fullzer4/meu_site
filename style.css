@@ -18,6 +18,7 @@ body{
     --corham1: #A30CBC;
     --corham2: #201E1E;
     --cormenuL: #201E1E;
+    --corsmtexto: #FFFFFF;
 }
 
 #menu {
@@ -76,10 +77,40 @@ body{
 
 #conteudo {
     margin-top: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sobremim {
     display: flex;
     flex-direction: row;
     padding: 20px;
+    gap: 40px;
+    align-items: center;
+}
+
+.sobremim-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobremim-texto-titulo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--corsmtexto);
+}
+
+.sobremim-texto-descricao {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--corsmtexto);
+}
+
+.sobremim-imagem img{
+    border-radius: 45px;
+    height: 225px;
 }
