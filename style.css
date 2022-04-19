@@ -341,7 +341,7 @@ body{
         font-size: 1.2rem;
     }
     .sobremim-texto-descricao{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .sobremim-imagem img{
         height: 250px;
@@ -393,9 +393,10 @@ body{
 @media screen and (max-width: 615px){
     .sobremim{
         padding: 20px;
+        gap: 10px;
     }
     .sobremim-texto-titulo{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .sobremim-texto-descricao{
         font-size: 0.6em;
@@ -411,25 +412,25 @@ body{
         align-items: center;
     }
     #menu-botao{
-        max-width: 30px;
+        max-width: 40px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 25px;
+        max-width: 35px;
     }
     
     .menu-botao-ham{
-        height: 5px;
+        height: 7px;
         border-radius: 5px;
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(3px,8px);
+        transform: rotate(55deg) translate(5px,6px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(5px, -12px);
+        transform: rotate(-55deg) translate(9px, -12px);
     }
 
     .menu-links{
@@ -460,16 +461,16 @@ body{
         align-items: center;
     }
     #menu-botao{
-        max-width: 30px;
+        max-width: 35px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 25px;
+        max-width: 30px;
     }
     
     .menu-botao-ham{
-        height: 5px;
+        height: 6px;
         border-radius: 5px;
     }
     
@@ -478,7 +479,7 @@ body{
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(5px, -12px);
+        transform: rotate(-55deg) translate(7px, -12px);
     }
 
     .menu-links{
