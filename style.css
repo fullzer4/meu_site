@@ -121,6 +121,47 @@ body{
 
 /*testat com resoluções maiores*/
 
+@media screen and (max-width: 2560px){
+    #menu-botao{
+        max-width: 55px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 50px;
+    }
+    
+    .menu-botao-ham{
+        height: 10px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(12px,4px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(12px, -10px);
+    }
+
+    .menu-links{
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .sobremim{
+        padding: 40px;
+    }
+    .sobremim-texto-titulo{
+        font-size: 4rem;
+    }
+    .sobremim-texto-descricao{
+        font-size: 2.8rem;
+    }
+    .sobremim-imagem img{
+        height: 600px;
+    }
+}
+/*arrumar o de tela 4k*/
 @media screen and (max-width: 1920px){
     #menu-botao{
         max-width: 45px;
@@ -250,8 +291,6 @@ body{
 
 }
 
-/*ate aqui tudo feito*/
-
 @media screen and (max-width: 900px){
     #menu-botao{
         max-width: 40px;
@@ -367,6 +406,10 @@ body{
 }
 
 @media screen and (max-width: 555px){
+    #menu{
+        flex-direction: column;
+        align-items: center;
+    }
     #menu-botao{
         max-width: 30px;
         padding: 5px;
@@ -395,47 +438,67 @@ body{
     }
 
     .sobremim{
+        flex-direction: column-reverse;
         padding: 10px;
+        margin-top: 20px;
+        gap: 20px;
     }
     .sobremim-texto-titulo{
-        font-size: 0.7rem;
+        font-size: 1.2rem;
     }
     .sobremim-texto-descricao{
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
     .sobremim-imagem img{
-        height: 180px;
+        height: 275px;
     }
 }
 
-/*fazer teste*/
-
-@media screen and (max-width: 476px){
-    .sobremim{
-        padding: 10px;
+@media screen and (max-width: 320px){
+    #menu{
+        flex-direction: column;
+        align-items: center;
     }
-    .sobremim-texto-titulo{
-        font-size: 0.7rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 0.5rem;
-    }
-    .sobremim-imagem img{
-        height: 160px;
-    }
-}
-
-@media screen and (max-width: 455px){
-    .sobremim{
+    #menu-botao{
+        max-width: 30px;
         padding: 5px;
     }
+    
+    .menu-botao-in{
+        max-width: 25px;
+    }
+    
+    .menu-botao-ham{
+        height: 5px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(3px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(5px, -12px);
+    }
+
+    .menu-links{
+        font-size: 1rem;
+        padding: 7px;
+    }
+
+    .sobremim{
+        flex-direction: column-reverse;
+        padding: 10px;
+        margin-top: 20px;
+        gap: 20px;
+    }
     .sobremim-texto-titulo{
-        font-size: 0.65rem;
+        font-size: 1rem;
     }
     .sobremim-texto-descricao{
-        font-size: 0.4rem;
+        font-size: 0.65rem;
     }
     .sobremim-imagem img{
-        height: 150px;
+        height: 225px;
     }
 }
