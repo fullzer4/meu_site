@@ -19,6 +19,9 @@ body{
     --corham2: #201E1E;
     --cormenuL: #201E1E;
     --corsmtexto: #FFFFFF;
+    --corslider: #A30CBC;
+    --corbotaoslide: #201E1E;
+    --corbotaoslidetexto: #FFFFFF;
 }
 
 #menu {
@@ -116,11 +119,52 @@ body{
     height: 500px;
 }
 
+/*Fazendo*/
+
+.slide-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--corslider);
+    padding: 10px;
+}
+
+.slide-contaier-botao{
+    display: flex;
+    flex-direction: row;
+}
+
+#container-botao{
+    background-color: var(--corbotaoslide);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--corbotaoslidetexto);
+}
+
+
+
+
+
+
+
+
+
+
+
 /*#################################################*/
 /*                      Telas                     */
 /*################################################*/
-
-/*testat com resoluções maiores*/
 
 @media screen and (max-width: 2560px){
     #menu-botao{
@@ -162,7 +206,7 @@ body{
         height: 600px;
     }
 }
-/*arrumar o de tela 4k*/
+
 @media screen and (max-width: 1920px){
     #menu-botao{
         max-width: 55px;
