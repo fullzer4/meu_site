@@ -26,6 +26,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     background: var(--cormenu);
+    position: relative;
 }
 
 .menu-links {
@@ -164,21 +165,21 @@ body{
 /*arrumar o de tela 4k*/
 @media screen and (max-width: 1920px){
     #menu-botao{
-        max-width: 45px;
+        max-width: 55px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 40px;
+        max-width: 50px;
     }
     
     .menu-botao-ham{
-        height: 9px;
+        height: 11px;
         border-radius: 5px;
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(10px,4px);
+        transform: rotate(55deg) translate(12px,6px);
     }
     
     .hanima3{
@@ -186,7 +187,7 @@ body{
     }
 
     .menu-links{
-        font-size: 1.6rem;
+        font-size: 2rem;
         padding: 10px;
     }
     .sobremim{
@@ -219,6 +220,32 @@ body{
 }
 
 @media screen and (max-width: 1450px){
+    #menu-botao{
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 45px;
+    }
+    
+    .menu-botao-ham{
+        height: 10px;
+        border-radius: 5px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(10px,4px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(14px, -10px);
+    }
+
+    .menu-links{
+        font-size: 1.6rem;
+    }
+
     .sobremim{
         padding: 40px;
     }
@@ -280,10 +307,10 @@ body{
         padding: 25px;
     }
     .sobremim-texto-titulo{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     .sobremim-texto-descricao{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .sobremim-imagem img{
         height: 325px;
