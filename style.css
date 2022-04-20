@@ -41,15 +41,15 @@ body{
     font-style: normal;
     font-weight: 500;
     color: var(--cormenuL);
-    font-size: 1rem;
-    padding: 5px;
+    font-size: 3rem;
+    padding: 10px;
 }   
 
 #menu-botao{
     position: absolute;
     width: 100%;
-    max-width: 50px;
-    padding: 2px;
+    max-width: 65px;
+    padding: 5px;
     top: 0;
     left: 0;
 }
@@ -57,20 +57,20 @@ body{
 .menu-botao-in{
     position: relative;
     width: 100%;
-    max-width: 45px;
+    max-width: 60px;
 }
 
 .menu-botao-ham{
     width: 100%;
-    height: 5px;
+    height: 12px;
     margin: 4px;
-    border-radius: 5px;
+    border-radius: 10px;
     background: var(--corham1);
     transition: all .3s;
 }
 
 .hanima1{
-    transform: rotate(55deg) translate(5px,4px);
+    transform: rotate(55deg) translate(17px,8px);
     background: var(--corham2);
 }
 
@@ -79,7 +79,7 @@ body{
 }
 
 .hanima3{
-    transform: rotate(-55deg) translate(8px, -8px);
+    transform: rotate(-55deg) translate(10px, -10px);
     background: var(--corham2);
 }
 
@@ -106,29 +106,27 @@ body{
     font-family: 'Montserrat';
     font-weight: 600;
     color: var(--corsmtexto);
-    font-size: 3.5rem;
+    font-size: 6rem;
 }
 
 .sobremim-texto-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
     color: var(--corsmtexto);
-    font-size: 2rem;
+    font-size: 3.2rem;
 }
 
 .sobremim-imagem img{
     border-radius: 45px;
-    height: 500px;
+    height: 600px;
 }
-
-/*Fazendo*/
 
 .slide-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: var(--corslider);
-    padding: 20px;
+    padding: 30px;
 }
 
 #slider{
@@ -136,7 +134,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 60px;
     margin-bottom: 10px;
 }
 
@@ -145,7 +143,7 @@ body{
 }
 
 #slider-imagem{
-    height: 30rem;
+    height: 650px;
     border-radius: 35px;
 }
 
@@ -157,13 +155,13 @@ body{
 #slider-titulo {
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 4.85rem;
 }
 
 #slider-descricao{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3.95rem;
 }
 
 .slide-contaier-botao{
@@ -177,12 +175,12 @@ body{
     padding-bottom: 5px;
     padding-right: 20px;
     padding-left: 20px;
-    border-radius: 15px;
+    border-radius: 20px;
 
     cursor: pointer;
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     text-align: center;
@@ -207,7 +205,7 @@ body{
 .rodape-titulo h5{
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: var(--rodapetitulo);
 }
 
@@ -248,26 +246,26 @@ body{
 .card-links-containers h6{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h7{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h8{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers img{
-    height: 125px;
+    height: 200px;
 }
 
 .divisao-card-links{
@@ -295,46 +293,80 @@ body{
 
 @media screen and (max-width: 2560px){
     #menu-botao{
-        max-width: 55px;
+        max-width: 65px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 50px;
+        max-width: 60px;
     }
     
     .menu-botao-ham{
-        height: 10px;
-        border-radius: 5px;
+        height: 12px;
+        border-radius: 10px;
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(12px,4px);
+        transform: rotate(55deg) translate(17px,8px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(12px, -10px);
+        transform: rotate(-55deg) translate(10px, -10px);
     }
 
     .menu-links{
-        font-size: 2rem;
+        font-size: 3rem;
         padding: 10px;
     }
     .sobremim{
         padding: 40px;
     }
-    .sobremim-texto-titulo{
-        font-size: 4rem;
+    .sobremim-texto-titulo h1{
+        font-size: 6rem;
     }
-    .sobremim-texto-descricao{
-        font-size: 2.8rem;
+    .sobremim-texto-descricao h2{
+        font-size: 3.2rem;
     }
     .sobremim-imagem img{
         height: 600px;
     }
+    .slide-container{
+        padding: 30px;
+    }
+    #slider{
+        gap: 60px;
+    }
+    #slider-imagem{
+        height: 650px;
+    }
+    #slider-titulo{
+        font-size: 4.85rem;
+    }
+    #slider-descricao{
+        font-size: 3.95rem;
+    }
+    #container-botao{
+        font-size: 2.5rem;
+        border-radius: 20px;
+    }
+    .rodape-titulo h5{
+        font-size: 5rem; 
+    }
+    .card-links-containers img{
+        height: 200px;
+    }
+    .card-links-containers h6{
+        font-size: 4rem;
+    }
+    .card-links-containers h7{
+        font-size: 4rem;
+    }
+    .card-links-containers h8{
+        font-size: 4rem;
+    }
 }
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1980px){
     #menu-botao{
         max-width: 55px;
         padding: 5px;
@@ -345,16 +377,16 @@ body{
     }
     
     .menu-botao-ham{
-        height: 11px;
-        border-radius: 5px;
+        height: 10px;
+        border-radius: 10px;
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(12px,6px);
+        transform: rotate(55deg) translate(13px,8px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(12px, -10px);
+        transform: rotate(-55deg) translate(8px, -10px);
     }
 
     .menu-links{
@@ -362,342 +394,51 @@ body{
         padding: 10px;
     }
     .sobremim{
-        padding: 40px;
+        padding: 35px;
+        gap: 20px;
     }
-    .sobremim-texto-titulo{
-        font-size: 3.5rem;
+    .sobremim-texto-titulo h1{
+        font-size: 4.5rem;
     }
-    .sobremim-texto-descricao{
-        font-size: 2rem;
-    }
-    .sobremim-imagem img{
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 1725px){
-    .sobremim{
-        padding: 40px;
-    }
-    .sobremim-texto-titulo{
-        font-size: 3rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 1.5rem;
-    }
-    .sobremim-imagem img{
-        height: 425px;
-    } 
-}
-
-@media screen and (max-width: 1450px){
-    #menu-botao{
-        max-width: 50px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 45px;
-    }
-    
-    .menu-botao-ham{
-        height: 10px;
-        border-radius: 5px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(10px,4px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(14px, -10px);
-    }
-
-    .menu-links{
-        font-size: 1.6rem;
-    }
-
-    .sobremim{
-        padding: 40px;
-    }
-    .sobremim-texto-titulo{
+    .sobremim-texto-descricao h2{
         font-size: 2.5rem;
     }
-    .sobremim-texto-descricao{
-        font-size: 1.5rem;
-    }
     .sobremim-imagem img{
-        height: 400px;
-    } 
-}
-
-@media screen and (max-width: 1250px){
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
+        height: 550px;
     }
-    
-    .menu-botao-in{
-        max-width: 40px;
+    .slide-container{
+        padding: 30px;
     }
-    
-    .menu-botao-ham{
-        height: 8px;
-        border-radius: 5px;
+    #slider{
+        gap: 60px;
     }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(12px,8px);
+    #slider-imagem{
+        height: 600px;
     }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(5px, -8px);
+    #slider-titulo{
+        font-size: 4.25rem;
     }
-
-    .menu-links{
-        font-size: 1.8rem;
-        padding: 10px;
+    #slider-descricao{
+        font-size: 3rem;
     }
-
-    .sobremim{
-        padding: 25px;
+    #container-botao{
+        font-size: 2rem;
+        border-radius: 20px;
     }
-    .sobremim-texto-titulo{
-        font-size: 1.9rem;
+    .rodape-titulo h5{
+        font-size: 4rem;
+        margin-bottom: 30px; 
     }
-    .sobremim-texto-descricao{
-        font-size: 1.25rem;
+    .card-links-containers img{
+        height: 150px;
     }
-    .sobremim-imagem img{
-        height: 350px;
-    } 
-}
-
-@media screen and (max-width: 1030px){
-    .sobremim{
-        padding: 25px;
+    .card-links-containers h6{
+        font-size: 3rem;
     }
-    .sobremim-texto-titulo{
-        font-size: 1.8rem;
+    .card-links-containers h7{
+        font-size: 3rem;
     }
-    .sobremim-texto-descricao{
-        font-size: 1.1rem;
-    }
-    .sobremim-imagem img{
-        height: 325px;
-    } 
-
-}
-
-@media screen and (max-width: 900px){
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 35px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        border-radius: 5px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(10px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(5px, -8px);
-    }
-
-    .menu-links{
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-
-    .sobremim{
-        padding: 25px;
-    }
-    .sobremim-texto-titulo{
-        font-size: 1.4rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 1rem;
-    }
-    .sobremim-imagem img{
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 807px){
-    .sobremim{
-        padding: 20px;
-    }
-    .sobremim-texto-titulo{
-        font-size: 1.2rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 0.9rem;
-    }
-    .sobremim-imagem img{
-        height: 250px;
-    }
-}
-
-@media screen and (max-width: 695px){
-    #menu-botao{
-        max-width: 35px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 30px;
-    }
-    
-    .menu-botao-ham{
-        height: 6px;
-        border-radius: 5px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(8px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(5px, -8px);
-    }
-
-    .menu-links{
-        font-size: 1.3rem;
-        padding: 10px;
-    }
-
-    .sobremim{
-        padding: 20px;
-    }
-    .sobremim-texto-titulo{
-        font-size: 1rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 0.8em;
-    }
-    .sobremim-imagem img{
-        height: 225px;
-    }
-}
-
-@media screen and (max-width: 615px){
-    .sobremim{
-        padding: 20px;
-        gap: 10px;
-    }
-    .sobremim-texto-titulo{
-        font-size: 1rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 0.6em;
-    }
-    .sobremim-imagem img{
-        height: 200px;
-    }
-}
-
-@media screen and (max-width: 555px){
-    #menu{
-        flex-direction: column;
-        align-items: center;
-    }
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 35px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        border-radius: 5px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(5px,6px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(9px, -12px);
-    }
-
-    .menu-links{
-        font-size: 1.2rem;
-        padding: 7px;
-    }
-
-    .sobremim{
-        flex-direction: column-reverse;
-        padding: 10px;
-        margin-top: 20px;
-        gap: 20px;
-    }
-    .sobremim-texto-titulo{
-        font-size: 1.2rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 0.75rem;
-    }
-    .sobremim-imagem img{
-        height: 275px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    #menu{
-        flex-direction: column;
-        align-items: center;
-    }
-    #menu-botao{
-        max-width: 35px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 30px;
-    }
-    
-    .menu-botao-ham{
-        height: 6px;
-        border-radius: 5px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(3px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(7px, -12px);
-    }
-
-    .menu-links{
-        font-size: 1rem;
-        padding: 7px;
-    }
-
-    .sobremim{
-        flex-direction: column-reverse;
-        padding: 10px;
-        margin-top: 20px;
-        gap: 20px;
-    }
-    .sobremim-texto-titulo{
-        font-size: 1rem;
-    }
-    .sobremim-texto-descricao{
-        font-size: 0.65rem;
-    }
-    .sobremim-imagem img{
-        height: 225px;
+    .card-links-containers h8{
+        font-size: 3rem;
     }
 }
