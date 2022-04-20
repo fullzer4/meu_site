@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -22,6 +22,10 @@ body{
     --corslider: #A30CBC;
     --corbotaoslide: #201E1E;
     --corbotaoslidetexto: #FFFFFF;
+    --rodapetitulo: #FFFFFF;
+    --cardrodape: #201E1E;
+    --cardtexto: #FFFFFF;
+    --divisaocard: #1D1B1B;
 }
 
 #menu {
@@ -183,6 +187,106 @@ body{
     align-items: center;
     text-align: center;
     color: var(--corbotaoslidetexto);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rodape-titulo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.rodape-titulo h5{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: var(--rodapetitulo);
+}
+
+.rodape-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: float 6s ease-in-out infinite;
+    width: 100%;
+}
+
+.card-links-1{
+    display: flex;
+    background-color: var(--cardrodape);
+    border-radius: 25px;    
+    padding-right: 10px;
+}
+.card-links-2{
+    display: flex;
+    background-color: var(--cardrodape);
+    border-radius: 25px;
+    padding-right: 10px;
+}
+.card-links-3{
+    display: flex;
+    background-color: var(--cardrodape);
+    border-radius: 25px;
+    padding-right: 10px;
+}
+
+.card-links-containers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-links-containers h6{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: var(--cardtexto);
+}
+
+.card-links-containers h7{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: var(--cardtexto);
+}
+
+.card-links-containers h8{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: var(--cardtexto);
+}
+
+.card-links-containers img{
+    height: 125px;
+}
+
+.divisao-card-links{
+    width: 75%;
+    height: 2px;
+    background: #1D1B1B;
+    margin: 6px;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 /*#################################################*/
