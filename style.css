@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Ubuntu:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -98,18 +98,16 @@ body{
     flex-direction: column;
 }
 
-.sobremim-texto-titulo {
+.sobremim-texto-titulo h1{
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--corsmtexto);
     font-size: 3.5rem;
 }
 
-.sobremim-texto-descricao {
+.sobremim-texto-descricao h2{
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--corsmtexto);
     font-size: 2rem;
 }
@@ -135,6 +133,7 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    margin-bottom: 10px;
 }
 
 .slider-container-imagem{
