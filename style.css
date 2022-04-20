@@ -126,7 +126,41 @@ body{
     flex-direction: column;
     align-items: center;
     background: var(--corslider);
-    padding: 10px;
+    padding: 20px;
+}
+
+#slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.slider-container-imagem{
+    display: flex;
+}
+
+#slider-imagem{
+    height: 30rem;
+    border-radius: 35px;
+}
+
+.slider-container-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+#slider-titulo {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#slider-descricao{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 .slide-contaier-botao{
@@ -138,29 +172,19 @@ body{
     background-color: var(--corbotaoslide);
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     border-radius: 15px;
 
     cursor: pointer;
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
     text-align: center;
     color: var(--corbotaoslidetexto);
 }
-
-
-
-
-
-
-
-
-
-
 
 /*#################################################*/
 /*                      Telas                     */
