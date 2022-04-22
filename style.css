@@ -507,7 +507,7 @@ body{
         margin-bottom: 30px; 
     }
     .card-links-containers img{
-        height: 150px;
+        height: 125px;
     }
     .card-links-containers h6{
         font-size: 3rem;
@@ -738,7 +738,7 @@ body{
         margin-bottom: 30px; 
     }
     .card-links-containers img{
-        height: 90px;
+        height: 75px;
     }
     .card-links-containers h6{
         font-size: 2rem;
@@ -815,7 +815,7 @@ body{
         margin-bottom: 15px; 
     }
     .card-links-containers img{
-        height: 75px;
+        height: 65px;
     }
     .card-links-containers h6{
         font-size: 1.75rem;
@@ -892,7 +892,7 @@ body{
         margin-bottom: 15px; 
     }
     .card-links-containers img{
-        height: 60px;
+        height: 50px;
     }
     .card-links-containers h6{
         font-size: 1.5rem;
@@ -907,14 +907,14 @@ body{
 
 /*celular*/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
     #menu-botao{
         max-width: 40px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 32px;
+        max-width: 30px;
     }
     
     .menu-botao-ham{
@@ -930,48 +930,59 @@ body{
         transform: rotate(-55deg) translate(6px, -12px);
     }
 
+    #menu {
+        flex-direction: column;
+        align-items: center ;
+    }
     .menu-links{
-        font-size: 1.5rem;
-        padding: 8px;
+        font-size: 1.75rem;
+        padding: 7px;
     }
     .sobremim{
         padding: 20px;
         gap: 20px;
+        flex-direction: column-reverse;
+        text-align: inherit;
     }
     .sobremim-texto-titulo h1{
-        font-size: 1.5rem;
+        font-size: 2.25rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 1.10rem;
+        font-size: 1.25rem;
     }
     .sobremim-imagem img{
-        height: 225px;
-    }
-    .slide-container{
-        padding: 15px;
-    }
-    #slider{
-        gap: 20px;
-    }
-    #slider-imagem{
         height: 250px;
     }
+    .slide-container{
+        padding: 20px;
+    }
+    #slider{
+        flex-direction:column-reverse;
+        text-align: center;
+        gap: 15px;
+    }
+    #slider-imagem{
+        height: 300px;
+    }
     #slider-titulo{
-        font-size: 1.60rem;
+        font-size: 2.25rem;
     }
     #slider-descricao{
-        font-size: 1.20rem;
+        font-size: 1.40rem;
     }
     #container-botao{
-        font-size: 1.10rem;
-        border-radius: 20px;    
+        font-size: 1.75rem;
+        border-radius: 17px;    
     }
     .rodape-titulo h5{
-        font-size: 2rem;
+        font-size: 2.25rem;
         margin-bottom: 15px; 
     }
+    .card-links-containers{
+        border-radius: 10px;
+    }
     .card-links-containers img{
-        height: 60px;
+        height: 65px;
     }
     .card-links-containers h6{
         font-size: 1.5rem;
@@ -980,6 +991,261 @@ body{
         font-size: 1.5rem;
     }
     .card-links-containers h8{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 525px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 30px;
+    }
+    
+    .menu-botao-ham{
+        height: 7px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(6px,9px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(6px, -12px);
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center ;
+    }
+    .menu-links{
+        font-size: 1.75rem;
+        padding: 7px;
+    }
+    .sobremim{
+        padding: 20px;
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: inherit;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 2.1rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.25rem;
+    }
+    .sobremim-imagem img{
+        height: 250px;
+    }
+    .slide-container{
+        padding: 20px;
+    }
+    #slider{
+        flex-direction:column-reverse;
+        text-align: center;
+        gap: 15px;
+    }
+    #slider-imagem{
+        height: 300px;
+    }
+    #slider-titulo{
+        font-size: 2.25rem;
+    }
+    #slider-descricao{
+        font-size: 1.40rem;
+    }
+    #container-botao{
+        font-size: 1.75rem;
+        border-radius: 17px;    
+    }
+    .rodape-titulo h5{
+        font-size: 2.25rem;
+        margin-bottom: 15px; 
+    }
+    .card-links-containers img{
+        height: 50px;
+    }
+    .card-links-containers h6{
+        font-size: 1.2rem;
+    }
+    .card-links-containers h7{
+        font-size: 1.2rem;
+    }
+    .card-links-containers h8{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 388px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 30px;
+    }
+    
+    .menu-botao-ham{
+        height: 7px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(6px,9px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(6px, -12px);
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center ;
+    }
+    .menu-links{
+        font-size: 1.75rem;
+        padding: 7px;
+    }
+    .sobremim{
+        padding: 20px;
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: inherit;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 1.55rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.10rem;
+    }
+    .sobremim-imagem img{
+        height: 225px;
+    }
+    .slide-container{
+        padding: 20px;
+    }
+    #slider{
+        flex-direction:column-reverse;
+        text-align: center;
+        gap: 15px;
+    }
+    #slider-imagem{
+        height: 275px;
+    }
+    #slider-titulo{
+        font-size: 2rem;
+    }
+    #slider-descricao{
+        font-size: 1.25rem;
+    }
+    #container-botao{
         font-size: 1.5rem;
+        border-radius: 17px;    
+    }
+    .rodape-titulo h5{
+        font-size: 2rem;
+        margin-bottom: 15px; 
+    }
+    .card-links-containers img{
+        height: 45px;
+    }
+    .card-links-containers h6{
+        font-size: 1rem;
+    }
+    .card-links-containers h7{
+        font-size: 1rem;
+    }
+    .card-links-containers h8{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 340px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 30px;
+    }
+    
+    .menu-botao-ham{
+        height: 7px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(6px,9px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(6px, -12px);
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center ;
+    }
+    .menu-links{
+        font-size: 1.75rem;
+        padding: 7px;
+    }
+    .sobremim{
+        padding: 20px;
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: inherit;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 1.45rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.05rem;
+    }
+    .sobremim-imagem img{
+        height: 220px;
+    }
+    .slide-container{
+        padding: 15px;
+    }
+    #slider{
+        flex-direction:column-reverse;
+        text-align: center;
+        gap: 15px;
+    }
+    #slider-imagem{
+        height: 255px;
+    }
+    #slider-titulo{
+        font-size: 1.8rem;
+    }
+    #slider-descricao{
+        font-size: 1.15rem;
+    }
+    #container-botao{
+        font-size: 1.4rem;
+        border-radius: 17px;    
+    }
+    .rodape-titulo h5{
+        font-size: 1.8rem;
+        margin-bottom: 15px; 
+    }
+    .card-links-containers img{
+        height: 40px;
+    }
+    .card-links-containers h6{
+        font-size: 0.9rem;
+    }
+    .card-links-containers h7{
+        font-size: 0.9rem;
+    }
+    .card-links-containers h8{
+        font-size: 0.9rem;
     }
 }
