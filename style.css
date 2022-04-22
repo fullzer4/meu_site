@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -368,12 +368,12 @@ body{
 
 @media screen and (max-width: 1980px){
     #menu-botao{
-        max-width: 55px;
+        max-width: 50px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 50px;
+        max-width: 45px;
     }
     
     .menu-botao-ham{
@@ -395,16 +395,16 @@ body{
     }
     .sobremim{
         padding: 35px;
-        gap: 20px;
+        gap: 60px;
     }
     .sobremim-texto-titulo h1{
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .sobremim-imagem img{
-        height: 550px;
+        height: 475px;
     }
     .slide-container{
         padding: 30px;
@@ -413,13 +413,13 @@ body{
         gap: 60px;
     }
     #slider-imagem{
-        height: 600px;
+        height: 550px;
     }
     #slider-titulo{
-        font-size: 4.25rem;
+        font-size: 4rem;
     }
     #slider-descricao{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     #container-botao{
         font-size: 2rem;
@@ -440,5 +440,546 @@ body{
     }
     .card-links-containers h8{
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    #menu-botao{
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 45px;
+    }
+    
+    .menu-botao-ham{
+        height: 10px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(13px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(8px, -10px);
+    }
+
+    .menu-links{
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .sobremim{
+        padding: 35px;
+        gap: 60px;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 3.5rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 2rem;
+    }
+    .sobremim-imagem img{
+        height: 400px;
+    }
+    .slide-container{
+        padding: 30px;
+    }
+    #slider{
+        gap: 60px;
+    }
+    #slider-imagem{
+        height: 500px;
+    }
+    #slider-titulo{
+        font-size: 3.25rem;
+    }
+    #slider-descricao{
+        font-size: 2.5rem;
+    }
+    #container-botao{
+        font-size: 2rem;
+        border-radius: 20px;    
+    }
+    .rodape-titulo h5{
+        font-size: 4rem;
+        margin-bottom: 30px; 
+    }
+    .card-links-containers img{
+        height: 150px;
+    }
+    .card-links-containers h6{
+        font-size: 3rem;
+    }
+    .card-links-containers h7{
+        font-size: 3rem;
+    }
+    .card-links-containers h8{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    #menu-botao{
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 40px;
+    }
+    
+    .menu-botao-ham{
+        height: 9px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(10px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(9px, -10px);
+    }
+
+    .menu-links{
+        font-size: 1.75rem;
+        padding: 10px;
+    }
+    .sobremim{
+        padding: 35px;
+        gap: 30px;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 3rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.5rem;
+    }
+    .sobremim-imagem img{
+        height: 350px;
+    }
+    .slide-container{
+        padding: 30px;
+    }
+    #slider{
+        gap: 35px;
+    }
+    #slider-imagem{
+        height: 450px;
+    }
+    #slider-titulo{
+        font-size: 2.75rem;
+    }
+    #slider-descricao{
+        font-size: 2rem;
+    }
+    #container-botao{
+        font-size: 1.75rem;
+        border-radius: 20px;    
+    }
+    .rodape-titulo h5{
+        font-size: 3rem;
+        margin-bottom: 30px; 
+    }
+    .card-links-containers img{
+        height: 125px;
+    }
+    .card-links-containers h6{
+        font-size: 3rem;
+    }
+    .card-links-containers h7{
+        font-size: 3rem;
+    }
+    .card-links-containers h8{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    #menu-botao{
+        max-width: 45px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 40px;
+    }
+    
+    .menu-botao-ham{
+        height: 9px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(10px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(9px, -10px);
+    }
+
+    .menu-links{
+        font-size: 1.75rem;
+        padding: 10px;
+    }
+    .sobremim{
+        padding: 35px;
+        gap: 30px;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 2.5rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.5rem;
+    }
+    .sobremim-imagem img{
+        height: 300px;
+    }
+    .slide-container{
+        padding: 20px;
+    }
+    #slider{
+        gap: 35px;
+    }
+    #slider-imagem{
+        height: 350px;
+    }
+    #slider-titulo{
+        font-size: 2rem;
+    }
+    #slider-descricao{
+        font-size: 1.75rem;
+    }
+    #container-botao{
+        font-size: 1.55rem;
+        border-radius: 20px;    
+    }
+    .rodape-titulo h5{
+        font-size: 2.75rem;
+        margin-bottom: 30px; 
+    }
+    .card-links-containers img{
+        height: 100px;
+    }
+    .card-links-containers h6{
+        font-size: 2.5rem;
+    }
+    .card-links-containers h7{
+        font-size: 2.5rem;
+    }
+    .card-links-containers h8{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 920px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 10px;
+    }
+    
+    .menu-botao-in{
+        max-width: 35px;
+    }
+    
+    .menu-botao-ham{
+        height: 8px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(2px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(10px, -16px);
+    }
+
+    .menu-links{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .sobremim{
+        padding: 35px;
+        gap: 30px;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 2rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.25rem;
+    }
+    .sobremim-imagem img{
+        height: 275px;
+    }
+    .slide-container{
+        padding: 20px;
+    }
+    #slider{
+        gap: 30px;
+    }
+    #slider-imagem{
+        height: 300px;
+    }
+    #slider-titulo{
+        font-size: 2rem;
+    }
+    #slider-descricao{
+        font-size: 1.75rem;
+    }
+    #container-botao{
+        font-size: 1.5rem;
+        border-radius: 20px;    
+    }
+    .rodape-titulo h5{
+        font-size: 2.5rem;
+        margin-bottom: 30px; 
+    }
+    .card-links-containers img{
+        height: 90px;
+    }
+    .card-links-containers h6{
+        font-size: 2rem;
+    }
+    .card-links-containers h7{
+        font-size: 2rem;
+    }
+    .card-links-containers h8{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 35px;
+    }
+    
+    .menu-botao-ham{
+        height: 8px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(8px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(8px, -10px);
+    }
+
+    .menu-links{
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .sobremim{
+        padding: 30px;
+        gap: 20px;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 1.75rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.25rem;
+    }
+    .sobremim-imagem img{
+        height: 250px;
+    }
+    .slide-container{
+        padding: 20px;
+    }
+    #slider{
+        gap: 30px;
+    }
+    #slider-imagem{
+        height: 275px;
+    }
+    #slider-titulo{
+        font-size: 1.75rem;
+    }
+    #slider-descricao{
+        font-size: 1.25rem;
+    }
+    #container-botao{
+        font-size: 1.25rem;
+        border-radius: 20px;    
+    }
+    .rodape-titulo h5{
+        font-size: 2.25rem;
+        margin-bottom: 15px; 
+    }
+    .card-links-containers img{
+        height: 75px;
+    }
+    .card-links-containers h6{
+        font-size: 1.75rem;
+    }
+    .card-links-containers h7{
+        font-size: 1.75rem;
+    }
+    .card-links-containers h8{
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 32px;
+    }
+    
+    .menu-botao-ham{
+        height: 7px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(6px,9px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(6px, -12px);
+    }
+
+    .menu-links{
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+    .sobremim{
+        padding: 20px;
+        gap: 20px;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 1.5rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.10rem;
+    }
+    .sobremim-imagem img{
+        height: 225px;
+    }
+    .slide-container{
+        padding: 15px;
+    }
+    #slider{
+        gap: 20px;
+    }
+    #slider-imagem{
+        height: 250px;
+    }
+    #slider-titulo{
+        font-size: 1.60rem;
+    }
+    #slider-descricao{
+        font-size: 1.20rem;
+    }
+    #container-botao{
+        font-size: 1.10rem;
+        border-radius: 20px;    
+    }
+    .rodape-titulo h5{
+        font-size: 2rem;
+        margin-bottom: 15px; 
+    }
+    .card-links-containers img{
+        height: 60px;
+    }
+    .card-links-containers h6{
+        font-size: 1.5rem;
+    }
+    .card-links-containers h7{
+        font-size: 1.5rem;
+    }
+    .card-links-containers h8{
+        font-size: 1.5rem;
+    }
+}
+
+/*celular*/
+
+@media screen and (max-width: 600px){
+    #menu-botao{
+        max-width: 40px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 32px;
+    }
+    
+    .menu-botao-ham{
+        height: 7px;
+        border-radius: 10px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(6px,9px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(6px, -12px);
+    }
+
+    .menu-links{
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+    .sobremim{
+        padding: 20px;
+        gap: 20px;
+    }
+    .sobremim-texto-titulo h1{
+        font-size: 1.5rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.10rem;
+    }
+    .sobremim-imagem img{
+        height: 225px;
+    }
+    .slide-container{
+        padding: 15px;
+    }
+    #slider{
+        gap: 20px;
+    }
+    #slider-imagem{
+        height: 250px;
+    }
+    #slider-titulo{
+        font-size: 1.60rem;
+    }
+    #slider-descricao{
+        font-size: 1.20rem;
+    }
+    #container-botao{
+        font-size: 1.10rem;
+        border-radius: 20px;    
+    }
+    .rodape-titulo h5{
+        font-size: 2rem;
+        margin-bottom: 15px; 
+    }
+    .card-links-containers img{
+        height: 60px;
+    }
+    .card-links-containers h6{
+        font-size: 1.5rem;
+    }
+    .card-links-containers h7{
+        font-size: 1.5rem;
+    }
+    .card-links-containers h8{
+        font-size: 1.5rem;
     }
 }
