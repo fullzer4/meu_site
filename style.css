@@ -319,13 +319,13 @@ body{
         padding: 10px;
     }
     .sobremim{
-        padding: 40px;
+        padding: 60px;
     }
     .sobremim-texto-titulo h1{
-        font-size: 6rem;
+        font-size: 5.5rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 3.2rem;
+        font-size: 2.8rem;
     }
     .sobremim-imagem img{
         height: 600px;
@@ -334,7 +334,7 @@ body{
         padding: 30px;
     }
     #slider{
-        gap: 60px;
+        gap: 50px;
     }
     #slider-imagem{
         height: 650px;
@@ -343,7 +343,7 @@ body{
         font-size: 4.85rem;
     }
     #slider-descricao{
-        font-size: 3.95rem;
+        font-size: 3.5rem;
     }
     #container-botao{
         font-size: 2.5rem;
@@ -353,16 +353,16 @@ body{
         font-size: 5rem; 
     }
     .card-links-containers img{
-        height: 200px;
+        height: 150px;
     }
     .card-links-containers h6{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .card-links-containers h7{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .card-links-containers h8{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -430,16 +430,16 @@ body{
         margin-bottom: 30px; 
     }
     .card-links-containers img{
-        height: 150px;
+        height: 125px;
     }
     .card-links-containers h6{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .card-links-containers h7{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .card-links-containers h8{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -475,10 +475,10 @@ body{
         gap: 60px;
     }
     .sobremim-texto-titulo h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .sobremim-imagem img{
         height: 400px;
@@ -490,33 +490,33 @@ body{
         gap: 60px;
     }
     #slider-imagem{
-        height: 500px;
+        height: 450px;
     }
     #slider-titulo{
-        font-size: 3.25rem;
+        font-size: 3rem;
     }
     #slider-descricao{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
     #container-botao{
         font-size: 2rem;
         border-radius: 20px;    
     }
     .rodape-titulo h5{
-        font-size: 4rem;
+        font-size: 3.75rem;
         margin-bottom: 30px; 
     }
     .card-links-containers img{
-        height: 125px;
+        height: 100px;
     }
     .card-links-containers h6{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .card-links-containers h7{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .card-links-containers h8{
-        font-size: 3rem;
+        font-size: 2.25rem;
     }
 }
 
