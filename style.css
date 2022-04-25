@@ -547,6 +547,7 @@ body{
     }
     .rodape-titulo h5{
         font-size: 3.75rem;
+        font-size: 3.5rem;
         margin-bottom: 30px; 
     }
     .card-links-containers img{
@@ -560,6 +561,7 @@ body{
     }
     .card-links-containers h8{
         font-size: 2.25rem;
+        font-size: 2.5rem;
     }
 }
 
