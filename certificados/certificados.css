@@ -155,11 +155,22 @@ body{
 .container-conteudo-1{
     display: flex;
     flex-direction: row;
+    gap: 25px;
+    align-items: center;
 }
 
 .container-descricao-1{
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+
+.container-descricao-1 h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cortexto);
 }
 
 .container-descricao-1 h2{
@@ -170,7 +181,16 @@ body{
     color: var(--cortexto);
 }
 
-.container-conteudo-1 img{
+.container-imagem-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(163, 12, 188, 0.31);
+    border-radius: 75px;
+}
+
+.container-imagem-1 img{
     height: 380px;
     border-radius: 15px;
 }
