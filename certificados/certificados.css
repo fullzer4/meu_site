@@ -18,14 +18,7 @@ body{
     --corham1: #A30CBC;
     --corham2: #201E1E;
     --cormenuL: #201E1E;
-    --corsmtexto: #FFFFFF;
-    --corslider: #A30CBC;
-    --corbotaoslide: #201E1E;
-    --corbotaoslidetexto: #FFFFFF;
-    --rodapetitulo: #FFFFFF;
-    --cardrodape: #201E1E;
-    --cardtexto: #FFFFFF;
-    --divisaocard: #1D1B1B;
+    --cortexto: #FFFFFF;
 }
 
 #menu {
@@ -125,6 +118,61 @@ body{
 .hanima3{
     transform: rotate(-55deg) translate(10px, -10px);
     background: var(--corham2);
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.caixa-certificado-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.caixa-container-titulo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.caixa-container-titulo h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    color: var(--cortexto);
+}
+
+.container-conteudo-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-descricao-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-descricao-1 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--cortexto);
+}
+
+.container-conteudo-1 img{
+    height: 380px;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 2560px){
