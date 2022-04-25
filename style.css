@@ -28,6 +28,13 @@ body{
     --divisaocard: #1D1B1B;
 }
 
+#pagina{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1980px;
+}
+
 #menu {
     display: none;
     flex-direction: row;
@@ -128,7 +135,6 @@ body{
 }
 
 #conteudo {
-    margin-top: 32px;
     display: flex;
     flex-direction: column;
 }
