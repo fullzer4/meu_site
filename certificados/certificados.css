@@ -21,6 +21,13 @@ body{
     --cortexto: #FFFFFF;
 }
 
+#pagina{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1980px;
+}
+
 #menu {
     display: none;
     flex-direction: row;
@@ -126,8 +133,7 @@ body{
     align-items: center;
     justify-content: center;
     justify-items: center;
-    margin-top: 60px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .caixa-certificado-1{
@@ -136,20 +142,6 @@ body{
     align-items: center;
     justify-content: center;
     justify-items: center;
-}
-
-.caixa-container-titulo{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-.caixa-container-titulo h1{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    color: var(--cortexto);
 }
 
 .container-conteudo-1{
@@ -169,15 +161,16 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 5.5rem;
     color: var(--cortexto);
 }
 
 .container-descricao-1 h2{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: left;
     color: var(--cortexto);
 }
 
@@ -187,49 +180,64 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     background: rgba(163, 12, 188, 0.31);
-    border-radius: 75px;
+    border-radius: 214px 75px;
 }
 
 .container-imagem-1 img{
-    height: 380px;
+    height: 420px;
     border-radius: 15px;
 }
 
-@media screen and (max-width: 2560px){
-    #menu{
-        height: 70px;
-    }
+.caixa-certificado-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
 
-    #menu-botao{
-        max-width: 65px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 60px;
-    }
-    
-    .menu-botao-ham{
-        height: 12px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(17px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(10px, -10px);
-    }
+.container-conteudo-2{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
 
-    .menu-itens-caixa-imagem{
-        height: 50px;
-    }
+.container-descricao-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
-    .menu-itens-caixa-texto{
-        font-size: 2.3rem;
-    }
+.container-descricao-2 h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5.5rem;
+    color: var(--cortexto);
+}
 
+.container-descricao-2 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: left;
+    color: var(--cortexto);
+}
+
+.container-imagem-2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(163, 12, 188, 0.31);
+    border-radius: 75px 214px;
+}
+
+.container-imagem-2 img{
+    height: 420px;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 1980px){

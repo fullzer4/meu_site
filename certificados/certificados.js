@@ -10,14 +10,12 @@ botao.onclick = ()=> {
         ham[1].classList.add('hanima2');
         ham[2].classList.add('hanima3');
         nave.style.display = 'flex';
-        conteudo.style.marginTop = '0px';
         active = true;
     } else {
         ham[0].classList.remove('hanima1');
         ham[1].classList.remove('hanima2');
         ham[2].classList.remove('hanima3');
         nave.style.display = 'none';
-        conteudo.style.marginTop = '60px';
         active = false;
     }
 }
