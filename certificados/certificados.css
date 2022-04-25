@@ -240,6 +240,20 @@ body{
     border-radius: 15px;
 }
 
+.container-imagem-2-retrato {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(163, 12, 188, 0.31);
+    border-radius: 75px 214px;
+}
+
+.container-imagem-2-retrato img{
+    height: 450px;
+    border-radius: 15px;
+}
+
 @media screen and (max-width: 1980px){
     #menu{
         height: 60px;
