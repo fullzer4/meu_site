@@ -64,6 +64,7 @@ body{
     font-size: 2rem;
     color: var(--cormenuL);
 }
+
 .menu-itens-caixa-imagem {
     height: 40px;
 }
@@ -72,9 +73,9 @@ body{
     content: "";
     position: absolute;
     bottom: 0;
+    height: 3px;
     right: 100%;
     width: 100%;
-    height: 3px;
     border-radius: 2px;
     background-color: var(--cormenuL);
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -335,6 +336,10 @@ body{
 /*################################################*/
 
 @media screen and (max-width: 2560px){
+    #menu{
+        height: 70px;
+    }
+
     #menu-botao{
         max-width: 65px;
         padding: 5px;
@@ -357,10 +362,14 @@ body{
         transform: rotate(-55deg) translate(10px, -10px);
     }
 
-    .menu-links{
-        font-size: 3rem;
-        padding: 10px;
+    .menu-itens-caixa-imagem{
+        height: 50px;
     }
+
+    .menu-itens-caixa-texto{
+        font-size: 2.3rem;
+    }
+
     .sobremim{
         padding: 60px;
     }
@@ -410,6 +419,10 @@ body{
 }
 
 @media screen and (max-width: 1980px){
+    #menu{
+        height: 60px;
+    }
+
     #menu-botao{
         max-width: 50px;
         padding: 5px;
@@ -432,10 +445,14 @@ body{
         transform: rotate(-55deg) translate(8px, -10px);
     }
 
-    .menu-links{
-        font-size: 2rem;
-        padding: 10px;
+    .menu-itens-caixa-imagem{
+        height: 40px;
     }
+
+    .menu-itens-caixa-texto{
+        font-size: 2rem;
+    }
+
     .sobremim{
         padding: 35px;
         gap: 60px;
@@ -566,6 +583,10 @@ body{
 }
 
 @media screen and (max-width: 1250px){
+    #menu{
+        height: 50px;
+    }
+
     #menu-botao{
         max-width: 50px;
         padding: 5px;
@@ -588,10 +609,14 @@ body{
         transform: rotate(-55deg) translate(9px, -10px);
     }
 
-    .menu-links{
-        font-size: 1.75rem;
-        padding: 10px;
+    .menu-itens-caixa-imagem{
+        height: 35px;
     }
+
+    .menu-itens-caixa-texto{
+        font-size: 1.8rem;
+    }
+
     .sobremim{
         padding: 35px;
         gap: 30px;
@@ -720,6 +745,10 @@ body{
 }
 
 @media screen and (max-width: 920px){
+    #menu{
+        height: 50px;
+    }
+
     #menu-botao{
         max-width: 40px;
         padding: 10px;
@@ -742,10 +771,14 @@ body{
         transform: rotate(-55deg) translate(10px, -16px);
     }
 
-    .menu-links{
-        font-size: 1.5rem;
-        padding: 10px;
+    .menu-itens-caixa-imagem{
+        height: 35px;
     }
+
+    .menu-itens-caixa-texto{
+        font-size: 1.6rem;
+    }
+
     .sobremim{
         padding: 35px;
         gap: 30px;
@@ -819,10 +852,14 @@ body{
         transform: rotate(-55deg) translate(8px, -10px);
     }
 
-    .menu-links{
-        font-size: 1.5rem;
-        padding: 10px;
+    .menu-itens-caixa-imagem{
+        height: 35px;
     }
+
+    .menu-itens-caixa-texto{
+        font-size: 1.4rem;
+    }
+
     .sobremim{
         padding: 30px;
         gap: 20px;
@@ -874,6 +911,10 @@ body{
 }
 
 @media screen and (max-width: 700px){
+    #menu{
+        height: 45px;
+    }
+
     #menu-botao{
         max-width: 40px;
         padding: 5px;
@@ -896,10 +937,14 @@ body{
         transform: rotate(-55deg) translate(6px, -12px);
     }
 
-    .menu-links{
-        font-size: 1.5rem;
-        padding: 8px;
+    .menu-itens-caixa-imagem{
+        height: 35px;
     }
+
+    .menu-itens-caixa-texto{
+        font-size: 1.2rem;
+    }
+
     .sobremim{
         padding: 20px;
         gap: 20px;
@@ -976,13 +1021,23 @@ body{
     }
 
     #menu {
-        flex-direction: column;
-        align-items: center ;
+        flex-direction: row;
+        align-items: center;
+        height: 45px;
     }
-    .menu-links{
-        font-size: 1.75rem;
-        padding: 7px;
+    
+    .menu-itens{
+        flex-direction: row;
     }
+
+    .menu-itens-caixa{
+        flex-direction: row;
+    }
+
+    .menu-itens-caixa a{
+        display: none;
+    }
+
     .sobremim{
         padding: 20px;
         gap: 20px;
@@ -1067,10 +1122,7 @@ body{
         flex-direction: column;
         align-items: center ;
     }
-    .menu-links{
-        font-size: 1.75rem;
-        padding: 7px;
-    }
+    
     .sobremim{
         padding: 20px;
         gap: 20px;
@@ -1152,10 +1204,7 @@ body{
         flex-direction: column;
         align-items: center ;
     }
-    .menu-links{
-        font-size: 1.75rem;
-        padding: 7px;
-    }
+    
     .sobremim{
         padding: 20px;
         gap: 20px;
@@ -1237,10 +1286,7 @@ body{
         flex-direction: column;
         align-items: center ;
     }
-    .menu-links{
-        font-size: 1.75rem;
-        padding: 7px;
-    }
+
     .sobremim{
         padding: 20px;
         gap: 20px;
