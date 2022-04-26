@@ -161,7 +161,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 5.5rem;
+    font-size: 5rem;
     color: var(--cortexto);
 }
 
@@ -169,7 +169,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
     color: var(--cortexto);
 }
@@ -213,7 +213,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 5.5rem;
+    font-size: 5rem;
     color: var(--cortexto);
 }
 
@@ -221,7 +221,7 @@ body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
     color: var(--cortexto);
 }
@@ -254,42 +254,6 @@ body{
     border-radius: 15px;
 }
 
-@media screen and (max-width: 1980px){
-    #menu{
-        height: 60px;
-    }
-
-    #menu-botao{
-        max-width: 50px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 45px;
-    }
-    
-    .menu-botao-ham{
-        height: 10px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(13px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(8px, -10px);
-    }
-
-    .menu-itens-caixa-imagem{
-        height: 40px;
-    }
-
-    .menu-itens-caixa-texto{
-        font-size: 2rem;
-    }
-}
-
 @media screen and (max-width: 1440px){
     #menu-botao{
         max-width: 50px;
@@ -311,6 +275,57 @@ body{
     
     .hanima3{
         transform: rotate(-55deg) translate(8px, -10px);
+    }
+
+    #conteudo{
+        padding: 40px;
+    }
+
+    .container-conteudo-1{
+        gap: 25px;
+    }
+    
+    .container-descricao-1{
+        gap: 15px;
+    }
+    
+    .container-descricao-1 h1{
+        font-size: 3.5rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 2.5rem;
+    }
+    
+    .container-imagem-1 img{
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+    .container-conteudo-2{
+        gap: 25px;
+    }
+    
+    .container-descricao-2{
+        gap: 15px;
+    }
+    
+    .container-descricao-2 h1{
+        font-size: 3.5em;
+    }
+    
+    .container-descricao-2 h2{
+        font-size: 2.5rem;
+    }
+    
+    .container-imagem-2 img{
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+    .container-imagem-2-retrato img{
+        height: 400px;
+        border-radius: 15px;
     }
 }
 
@@ -348,6 +363,57 @@ body{
     .menu-itens-caixa-texto{
         font-size: 1.8rem;
     }
+
+    #conteudo{
+        padding: 40px;
+    }
+
+    .container-conteudo-1{
+        gap: 25px;
+    }
+    
+    .container-descricao-1{
+        gap: 15px;
+    }
+    
+    .container-descricao-1 h1{
+        font-size: 3rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 2rem;
+    }
+    
+    .container-imagem-1 img{
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    .container-conteudo-2{
+        gap: 25px;
+    }
+    
+    .container-descricao-2{
+        gap: 15px;
+    }
+    
+    .container-descricao-2 h1{
+        font-size: 3rem;
+    }
+    
+    .container-descricao-2 h2{
+        font-size: 2rem;
+    }
+    
+    .container-imagem-2 img{
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    .container-imagem-2-retrato img{
+        height: 350px;
+        border-radius: 15px;
+    }
 }
 
 @media screen and (max-width: 1050px){
@@ -376,6 +442,57 @@ body{
     .menu-links{
         font-size: 1.75rem;
         padding: 10px;
+    }
+
+    #conteudo{
+        padding: 40px;
+    }
+
+    .container-conteudo-1{
+        gap: 25px;
+    }
+    
+    .container-descricao-1{
+        gap: 15px;
+    }
+    
+    .container-descricao-1 h1{
+        font-size: 2.5rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 1.5rem;
+    }
+    
+    .container-imagem-1 img{
+        height: 275px;
+        border-radius: 15px;
+    }
+    
+    .container-conteudo-2{
+        gap: 25px;
+    }
+    
+    .container-descricao-2{
+        gap: 15px;
+    }
+    
+    .container-descricao-2 h1{
+        font-size: 2.5rem;
+    }
+    
+    .container-descricao-2 h2{
+        font-size: 1.5rem;
+    }
+    
+    .container-imagem-2 img{
+        height: 275px;
+        border-radius: 15px;
+    }
+    
+    .container-imagem-2-retrato img{
+        height: 325px;
+        border-radius: 15px;
     }
 }
 
@@ -413,9 +530,24 @@ body{
     .menu-itens-caixa-texto{
         font-size: 1.6rem;
     }
+    
+    .container-imagem-1 img{
+        height: 250px;
+        border-radius: 15px;
+    }
+
+    .container-imagem-2 img{
+        height: 250px;
+        border-radius: 15px;
+    }
+    
+    .container-imagem-2-retrato img{
+        height: 300px;
+        border-radius: 15px;
+    }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     #menu-botao{
         max-width: 40px;
         padding: 5px;
@@ -444,6 +576,36 @@ body{
 
     .menu-itens-caixa-texto{
         font-size: 1.4rem;
+    }
+
+    #conteudo{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .caixa-certificado-1{
+        flex-direction: column;
+    }
+    .caixa-certificado-2{
+        flex-direction: column-reverse;
+    }
+    .container-conteudo-1{
+        flex-direction: column;
+    }
+    .container-conteudo-2{
+        flex-direction: column-reverse;
+    }
+    .container-descricao-2 h1{
+        text-align: center;
+    }
+    .container-descricao-2 h2{
+        text-align: center;
+    }
+    .container-descricao-1 h1{
+        text-align: center;
+    }
+    .container-descricao-1 h2{
+        text-align: center;
     }
 }
 
