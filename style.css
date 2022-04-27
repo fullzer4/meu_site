@@ -1271,6 +1271,10 @@ body{
         padding: 5px;
     }
     
+    .menu-itens{
+        margin-left: 20px;
+    }
+
     .menu-botao-in{
         max-width: 30px;
     }

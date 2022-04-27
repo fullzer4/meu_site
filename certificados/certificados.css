@@ -751,6 +751,28 @@ body{
         flex-direction: column;
         align-items: center ;
     }
+
+    .container-descricao-1 h1{
+        font-size: 2rem;
+    }
+    .container-descricao-1 h2{
+        font-size: 1.75rem;
+    }
+    .container-descricao-2 h1{
+        font-size: 2rem;
+    }
+    .container-descricao-2 h2{
+        font-size: 1.75rem;
+    }
+    .container-imagem-2-retrato img{
+        height: 275px;
+    }
+    .container-imagem-2 img{
+        height: 200px;
+    }
+    .container-imagem-1 img{
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 340px){
@@ -779,5 +801,27 @@ body{
     #menu {
         flex-direction: column;
         align-items: center ;
+    }
+
+    .container-descricao-1 h1{
+        font-size: 1.75rem;
+    }
+    .container-descricao-1 h2{
+        font-size: 1.25rem;
+    }
+    .container-descricao-2 h1{
+        font-size: 1.75rem;
+    }
+    .container-descricao-2 h2{
+        font-size: 1.25rem;
+    }
+    .container-imagem-2-retrato img{
+        height: 250px;
+    }
+    .container-imagem-2 img{
+        height: 185px;
+    }
+    .container-imagem-1 img{
+        height: 185px;
     }
 }
