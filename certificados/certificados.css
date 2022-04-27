@@ -133,7 +133,7 @@ body{
     align-items: center;
     justify-content: center;
     justify-items: center;
-    padding: 40px;
+    padding: 80px;
 }
 
 .caixa-certificado-1{
@@ -253,6 +253,12 @@ body{
     height: 450px;
     border-radius: 15px;
 }
+
+/*============================================*/
+/*                                            */
+/*              mudanca de telas              */
+/*                                            */
+/*============================================*/
 
 @media screen and (max-width: 1440px){
     #menu-botao{
