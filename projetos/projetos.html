@@ -8,33 +8,73 @@
     <title>Fullzer4s Website Projetos</title>
 </head>
 <body>
-    <div id="menu">
-        <ul class="menu-itens">
-            <li class="menu-itens-caixa">
-                <img src="/meu_site/img/Home.svg" class="menu-itens-caixa-imagem">
-                <a href="/meu_site/index.html" class="menu-itens-caixa-texto">Home</a>
-            </li>
-            <li class="menu-itens-caixa">
-                <img src="/meu_site/img/Projetos.svg" class="menu-itens-caixa-imagem">
-                <a href="projetos/projetos.html" class="menu-itens-caixa-texto">Projetos</a>
-            </li>
-            <li class="menu-itens-caixa">
-                <img src="/meu_site/img/Certificados.svg" class="menu-itens-caixa-imagem">
-                <a href="/meu_site/certificados/certificados.html" class="menu-itens-caixa-texto">Certificados</a>
-            </li>
-        </ul>
-    </div>
-    <div id="menu-botao">
-        <div class="menu-botao-in">
-            <div class="menu-botao-ham"></div>
-            <div class="menu-botao-ham"></div>
-            <div class="menu-botao-ham"></div>
+    <div id="pagina">
+        <div id="menu">
+            <ul class="menu-itens">
+                <li class="menu-itens-caixa">
+                    <img src="/meu_site/img/Home.svg" class="menu-itens-caixa-imagem">
+                    <a href="/meu_site/index.html" class="menu-itens-caixa-texto">Home</a>
+                </li>
+                <li class="menu-itens-caixa">
+                    <img src="/meu_site/img/Projetos.svg" class="menu-itens-caixa-imagem">
+                    <a href="/meu_site/projetos/projetos.html" class="menu-itens-caixa-texto">Projetos</a>
+                </li>
+                <li class="menu-itens-caixa">
+                    <img src="/meu_site/img/Certificados.svg" class="menu-itens-caixa-imagem">
+                    <a href="/meu_site/certificados/certificados.html" class="menu-itens-caixa-texto">Certificados</a>
+                </li>
+            </ul>
         </div>
-    </div>
+        <div id="menu-botao">
+            <div class="menu-botao-in">
+                <div class="menu-botao-ham"></div>
+                <div class="menu-botao-ham"></div>
+                <div class="menu-botao-ham"></div>
+            </div>
+        </div>
 
-    <main id="conteudo">
-        <section></section>
-    </main>
+        <main id="conteudo">
+            <section class="box-projeto-0">
+                <div class="container-projeto-0">
+                    <div class="titulo-projeto-0">
+                        <h1>First Lego League</h1>
+                    </div>
+                    <div class="video-projeto-0">
+                        <video src="/meu_site/videos/FLL.mp4" autoplay controls></video>
+                    </div>
+                    <div class="descricao-projeto-0">
+                        <h2>Nesse projeto fizemos um robo para a FLL( First Lego League 2021/2022) onde ele tinha como objetivo completar objetivos da mesa, representando a TainhaTec da Escola S. Foi totalmente feito em lego e foi programado usando Scratch ( Uma das linguagens usadas no spike que foi o bloco de comando que usamos )</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="box-projeto-1">
+                <div class="container-projeto-1">
+                    <div class="titulo-projeto-1">
+                        <h1>Bone para deficientes visuais</h1>
+                    </div>
+                    <div class="video-projeto-1">
+                        <video src="/meu_site/videos/IdoCode2019.mp4" autoplay controls></video>
+                    </div>
+                    <div class="descricao-projeto-1">
+                        <h2>Esse projeto foi feito na startup Idocode com o foco de ajudar deficientes visuais com um boné onde tinha um sonar em sua ponta para detectar quando ele estivesse perto da parede. Para realizar esse projeto foi usado raspberrypi, sonar e uma powerbank para manter ligado o boné. Além disso foi usado python, ele está postado no <a href="https://github.com/fullzer4/Projeto-Bone-Deficiente-Visual"> Github </a></h2>
+                    </div>
+                </div>
+            </section>
+            <section class="box-projeto-2">
+                <div class="container-projeto-2">
+                    <div class="titulo-projeto-2">
+                        <h1>Leds remotamente com esp8266</h1>
+                    </div>
+                    <div class="video-projeto-2">
+                        <video src="/meu_site/videos/LuzG.mp4" autoplay controls></video>
+                    </div>
+                    <div class="descricao-projeto-2">
+                        <h2>Esse abajur foi refeito usando esp8266 nodeMCU com C++, um projeto facilmente adaptavel onde o usuario usando o app Blynk pode desligar e ligar os leds ligados no esp, codigo postado no <a href="https://github.com/fullzer4/esp8266-Nodemcu-BlynkWifiLed"> Github </a></h2>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     <script src="projetos.js"></script>
 </body>
 </html>
