@@ -148,17 +148,17 @@ body{
 
 .box-projeto-0{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    gap: 20px;
 }
 
 .container-projeto-0{
     display: flex;
     flex-direction: column;
-    background: rgba(163, 12, 188, 0.31);
+    background: #a20cbc93;
     border-radius: 115px;
     padding: 30px;
     padding-bottom: 50px;
@@ -203,17 +203,17 @@ body{
 
 .box-projeto-1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    gap: 20px;
 }
 
 .container-projeto-1{
     display: flex;
     flex-direction: column;
-    background: rgba(163, 12, 188, 0.31);
+    background: #a20cbc93;
     border-radius: 115px;
     padding: 30px;
     padding-bottom: 50px;
@@ -274,9 +274,9 @@ body{
 .container-projeto-2{
     display: flex;
     flex-direction: column;
-    background: rgba(163, 12, 188, 0.31);
+    background: #a20cbc93;
     border-radius: 115px;
-    padding: 30px;
+    padding: 60px;
     gap: 20px;
 }
 
