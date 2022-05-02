@@ -181,8 +181,8 @@ body{
     overflow: hidden;
 }
 
-.slide-first img{
-    height: 80%;
+.slide img{
+    height: 90%;
     border-radius: 20px;
     margin-left: 10px;
 }
@@ -193,6 +193,7 @@ body{
     justify-content: left;
     align-items: left;
     width: 100%;
+    gap: 10px;
 }
 
 .slide-container-descricao{
