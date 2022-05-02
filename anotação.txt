@@ -1,1 +1,4 @@
 dataset js
+replicar design figma projetos
+
+ao acabar tudo no notebook realizaar os ajustes todos do 0
