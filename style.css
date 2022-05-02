@@ -211,7 +211,7 @@ body{
 .slide-container-titulo h1{
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .slide-container-descricao h2{
@@ -304,10 +304,6 @@ body{
     margin-left: -200%;
 }
 
-#radio4:checked ~ .first{
-    margin-left: -300%;
-}
-
 .navigation-auto{
     position: absolute;
     width: 100%;
@@ -333,10 +329,6 @@ body{
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #600f6e;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
     background: #600f6e;
 }
 
