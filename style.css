@@ -171,70 +171,172 @@ body{
     height: 600px;
 }
 
-.slide-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: var(--corslider);
-    padding: 30px;
-}
-
-#slider{
+.slider{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 60px;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 550px;
+    background: #A30CBC;
+    overflow: hidden;
 }
 
-.slider-container-imagem{
-    display: flex;
+.slide-first img{
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 10px;
 }
 
-#slider-imagem{
-    height: 650px;
-    border-radius: 35px;
-}
-
-.slider-container-texto{
+.slide-conteudo-container{
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
 }
 
-#slider-titulo {
+.slide-container-descricao{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.slide-container-titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.slide-container-titulo h1{
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 4.85rem;
+    font-size: 3rem;
 }
 
-#slider-descricao{
+.slide-container-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 3.95rem;
+    font-size: 2rem;
 }
 
-.slide-contaier-botao{
+.slide-container-saibamais{
     display: flex;
     flex-direction: row;
 }
 
-#container-botao{
-    background-color: var(--corbotaoslide);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-radius: 20px;
-
-    cursor: pointer;
-    font-family: 'Ubuntu';
-    font-weight: 400;
-    font-size: 2.5rem;
+.btn-saibamais{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    color: var(--corbotaoslidetexto);
+    background: #201E1E;
+    border-radius: 25px;
+    width: 15%;
+    height: 40px;
+}
+
+.btn-saibamais a{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+.slides{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 4s;
+}
+
+.slide img{
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 475px;
+    gap: 25px;
+}
+
+.manual-btn{
+    border: 2px solid #600f6e;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:hover{
+    background: #600f6e;
+}
+
+#radio1:checked{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -300%;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 475px;
+    gap: 25px;
+}
+
+.navigation-auto div{
+    border: 2px solid #600f6e;
+    border-radius: 10px;
+    padding: 7px;
+    transition: 1s;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #600f6e;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #600f6e;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #600f6e;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #600f6e;
 }
 
 .rodape{
