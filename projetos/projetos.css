@@ -242,7 +242,7 @@ body{
 
 .titulo2-container h1{
     font-family: 'Ubuntu';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 3rem;
     color: #201E1E;
 }
@@ -279,9 +279,9 @@ body{
 
 .descricao2-container h2{
     font-family: 'Ubuntu';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.75rem;
-    color: #201E1E;
+    color: #0f0e0e;
 }
 
 @media screen and (max-width: 1440px){
