@@ -2,3 +2,5 @@ dataset js
 replicar design figma projetos
 
 ao acabar tudo no notebook realizaar os ajustes todos do 0
+
+texto Fll: FLL significa First Lego League uma competição em que eu participei junto com a Equipe TainhaTec em 2021/2022 da Escola S. Os objetivos desse campeonato era realizar uma pesquisa de um tema específico do ano e um robô para realizar a pista de objetivos (onde foi o meu foco). O robô tinha que ser feito 100% com Lego e a linguagem de programação que usamos foi o Scratch por sua facilidade de manutenção e por sua facilidade de uso.
