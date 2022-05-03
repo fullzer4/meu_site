@@ -149,7 +149,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 85%;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .linha1fll{
@@ -173,7 +174,6 @@ body{
 .container-textofll{
     display: flex;
     flex-direction: column;
-    width: 100%;
     gap: 20px;
 }
 
@@ -182,7 +182,6 @@ body{
     flex-direction: row;
     text-align: right;
     justify-content: right;
-    width: 100%;
 }
 
 .container-titulofll h1{
@@ -197,7 +196,6 @@ body{
     flex-direction: row;
     text-align: right;
     justify-content: right;
-    width: 100%;
 }
 
 .container-descricao1fll h2{
@@ -234,7 +232,10 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #A30CBC;
-    width: 85%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .linha1bdf{
@@ -258,16 +259,14 @@ body{
 .container-textobdf{
     display: flex;
     flex-direction: column;
-    width: 100%;
     gap: 20px;
 }
 
 .container-titulobdf{
     display: flex;
     flex-direction: row;
-    text-align: right;
-    justify-content: right;
-    width: 100%;
+    text-align:left;
+    justify-content: left;
 }
 
 .container-titulobdf h1{
@@ -280,9 +279,8 @@ body{
 .container-descricao1bdf{
     display: flex;
     flex-direction: row;
-    text-align: right;
-    justify-content: right;
-    width: 100%;
+    text-align:left;
+    justify-content: left;
 }
 
 .container-descricao1bdf h2{
@@ -300,6 +298,19 @@ body{
     gap: 10px;
 }
 
+.container-descricao2bdf{
+    text-align: right;
+    justify-content: right;
+}
+
+.container-descricao2bdf a{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 2rem;
+    color: #0C0C0C; 
+    text-decoration: underline;
+}
+
 .container-descricao2bdf h3{
    font-family: 'Ubuntu';
     font-weight: 300;
@@ -308,9 +319,94 @@ body{
 }
 
 #videobdf {
+    height: 425px;
+    border-radius: 20px;
+}
+
+.projetoesp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.linha1esp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.caixa-imgesp{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-imgesp img{
+    height: 375px;
+    border-radius: 50px;
+}
+
+.container-textoesp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-tituloesp{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+}
+
+.container-tituloesp h1{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+
+.container-descricao1esp{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+}
+
+.container-descricao1esp h2{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.linha2esp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-descricao2esp h3{
+   font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 2rem;
+    color: #FFFFFF; 
+}
+
+#videoesp {
     height: 400px;
     border-radius: 20px;
 }
+
+
+
+
 
 @media screen and (max-width: 1440px){
     #menu-botao{
