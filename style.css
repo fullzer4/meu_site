@@ -1,3 +1,4 @@
+/*Inicio gerais*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap');
 
 *{
@@ -10,6 +11,13 @@
 
 body{
     background: var(--corfundo);
+}
+
+#pagina{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1980px;
 }
 
 :root {
@@ -28,12 +36,8 @@ body{
     --divisaocard: #1D1B1B;
 }
 
-#pagina{
-    position: relative;
-    margin: auto;
-    width: 100%;
-    max-width: 1980px;
-}
+/*fim gerais*/
+/*inicio navbar*/
 
 #menu {
     display: none;
@@ -41,7 +45,7 @@ body{
     justify-content: space-around;
     background: var(--cormenu);
     position: relative;
-    height: 60px;
+    height: 65px;
 }
 
 .menu-itens {
@@ -68,12 +72,12 @@ body{
     transition: .3s;
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: var(--cormenuL);
 }
 
 .menu-itens-caixa-imagem {
-    height: 40px;
+    height: 50px;
 }
 
 .menu-itens-caixa-texto::before {
@@ -108,7 +112,7 @@ body{
 .menu-botao-in{
     position: relative;
     width: 100%;
-    max-width: 60px;
+    max-width: 55px;
 }
 
 .menu-botao-ham{
@@ -121,7 +125,7 @@ body{
 }
 
 .hanima1{
-    transform: rotate(55deg) translate(17px,8px);
+    transform: rotate(55deg) translate(16px,8px);
     background: var(--corham2);
 }
 
@@ -134,10 +138,14 @@ body{
     background: var(--corham2);
 }
 
+/*fim navbar*/
+
 #conteudo {
     display: flex;
     flex-direction: column;
 }
+
+/*inicio Sobre mim*/
 
 .sobremim {
     display: flex;
@@ -156,35 +164,31 @@ body{
     font-family: 'Montserrat';
     font-weight: 600;
     color: var(--corsmtexto);
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .sobremim-texto-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
     color: var(--corsmtexto);
-    font-size: 3.2rem;
+    font-size: 2.5rem;
 }
 
 .sobremim-imagem img{
     border-radius: 45px;
-    height: 600px;
+    height: 500px;
 }
 
+/*fim Sobre mim*/
+/*inicio slider*/
 .slider{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 550px;
+    height: 600px;
     background: #A30CBC;
     overflow: hidden;
-}
-
-.slide img{
-    height: 90%;
-    border-radius: 20px;
-    margin-left: 10px;
 }
 
 .slide-conteudo-container{
@@ -211,13 +215,13 @@ body{
 .slide-container-titulo h1{
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 4.25rem;
 }
 
 .slide-container-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 2.75rem;
 }
 
 .slide-container-saibamais{
@@ -233,14 +237,14 @@ body{
     background: #201E1E;
     border-radius: 25px;
     width: 15%;
-    height: 40px;
+    height: 50px;
 }
 
 .btn-saibamais a{
     font-family: 'Ubuntu';
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 .slides{
@@ -266,7 +270,7 @@ body{
 }
 
 .slide img{
-    height: 80%;
+    height: 100%;
     border-radius: 20px;
     margin-left: 20px;
 }
@@ -276,14 +280,14 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 475px;
+    margin-top: 515px;
     gap: 25px;
 }
 
 .manual-btn{
     border: 2px solid #600f6e;
-    padding: 7px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 15px;
     cursor: pointer;
     transition: 1s;
 }
@@ -309,14 +313,14 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 475px;
+    margin-top: 515px;
     gap: 25px;
 }
 
 .navigation-auto div{
     border: 2px solid #600f6e;
-    border-radius: 10px;
-    padding: 7px;
+    border-radius: 15px;
+    padding: 10px;
     transition: 1s;
 }
 
@@ -332,6 +336,8 @@ body{
     background: #600f6e;
 }
 
+/* fim slider */
+/* inicio rodape */
 .rodape{
     display: flex;
     flex-direction: column;
@@ -350,7 +356,7 @@ body{
 .rodape-titulo h5{
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--rodapetitulo);
 }
 
@@ -391,26 +397,26 @@ body{
 .card-links-containers h6{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h7{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h8{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers img{
-    height: 200px;
+    height: 125px;
 }
 
 .divisao-card-links{
@@ -431,1017 +437,11 @@ body{
         transform: translateY(0);
     }
 }
+/* fim rodape */
+
+/*tela padrao 1920 1080*/
 
 /*#################################################*/
 /*                      Telas                     */
 /*################################################*/
 
-@media screen and (max-width: 2560px){
-    #menu{
-        height: 70px;
-    }
-
-    #menu-botao{
-        max-width: 65px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 60px;
-    }
-    
-    .menu-botao-ham{
-        height: 12px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(17px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(10px, -10px);
-    }
-
-    .menu-itens-caixa-imagem{
-        height: 50px;
-    }
-
-    .menu-itens-caixa-texto{
-        font-size: 2.3rem;
-    }
-
-    .sobremim{
-        padding: 60px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 5.5rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 2.8rem;
-    }
-    .sobremim-imagem img{
-        height: 600px;
-    }
-    .slide-container{
-        padding: 30px;
-    }
-    #slider{
-        gap: 50px;
-    }
-    #slider-imagem{
-        height: 650px;
-    }
-    #slider-titulo{
-        font-size: 4.85rem;
-    }
-    #slider-descricao{
-        font-size: 3.5rem;
-    }
-    #container-botao{
-        font-size: 2.5rem;
-        border-radius: 20px;
-    }
-    .rodape-titulo h5{
-        font-size: 5rem; 
-    }
-    .card-links-containers img{
-        height: 150px;
-    }
-    .card-links-containers h6{
-        font-size: 3.5rem;
-    }
-    .card-links-containers h7{
-        font-size: 3.5rem;
-    }
-    .card-links-containers h8{
-        font-size: 3.5rem;
-    }
-}
-
-@media screen and (max-width: 1980px){
-    #menu{
-        height: 60px;
-    }
-
-    #menu-botao{
-        max-width: 50px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 45px;
-    }
-    
-    .menu-botao-ham{
-        height: 10px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(13px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(8px, -10px);
-    }
-
-    .menu-itens-caixa-imagem{
-        height: 40px;
-    }
-
-    .menu-itens-caixa-texto{
-        font-size: 2rem;
-    }
-
-    .sobremim{
-        padding: 35px;
-        gap: 60px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 4rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 2rem;
-    }
-    .sobremim-imagem img{
-        height: 475px;
-    }
-    .slide-container{
-        padding: 30px;
-    }
-    #slider{
-        gap: 60px;
-    }
-    #slider-imagem{
-        height: 550px;
-    }
-    #slider-titulo{
-        font-size: 4rem;
-    }
-    #slider-descricao{
-        font-size: 2.5rem;
-    }
-    #container-botao{
-        font-size: 2rem;
-        border-radius: 20px;
-    }
-    .rodape-titulo h5{
-        font-size: 4rem;
-        margin-bottom: 30px; 
-    }
-    .card-links-containers img{
-        height: 125px;
-    }
-    .card-links-containers h6{
-        font-size: 2.5rem;
-    }
-    .card-links-containers h7{
-        font-size: 2.5rem;
-    }
-    .card-links-containers h8{
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 1440px){
-    #menu-botao{
-        max-width: 50px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 45px;
-    }
-    
-    .menu-botao-ham{
-        height: 10px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(13px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(8px, -10px);
-    }
-
-    .menu-links{
-        font-size: 2rem;
-        padding: 10px;
-    }
-    .sobremim{
-        padding: 35px;
-        gap: 60px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 3rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.8rem;
-    }
-    .sobremim-imagem img{
-        height: 400px;
-    }
-    .slide-container{
-        padding: 30px;
-    }
-    #slider{
-        gap: 60px;
-    }
-    #slider-imagem{
-        height: 450px;
-    }
-    #slider-titulo{
-        font-size: 3rem;
-    }
-    #slider-descricao{
-        font-size: 2.25rem;
-    }
-    #container-botao{
-        font-size: 2rem;
-        border-radius: 20px;    
-    }
-    .rodape-titulo h5{
-        font-size: 3.75rem;
-        font-size: 3.5rem;
-        margin-bottom: 30px; 
-    }
-    .card-links-containers img{
-        height: 100px;
-    }
-    .card-links-containers h6{
-        font-size: 2.5rem;
-    }
-    .card-links-containers h7{
-        font-size: 2.5rem;
-    }
-    .card-links-containers h8{
-        font-size: 2.25rem;
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 1250px){
-    #menu{
-        height: 50px;
-    }
-
-    #menu-botao{
-        max-width: 50px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 40px;
-    }
-    
-    .menu-botao-ham{
-        height: 9px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(10px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(9px, -10px);
-    }
-
-    .menu-itens-caixa-imagem{
-        height: 35px;
-    }
-
-    .menu-itens-caixa-texto{
-        font-size: 1.8rem;
-    }
-
-    .sobremim{
-        padding: 35px;
-        gap: 30px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 3rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
-    }
-    .sobremim-imagem img{
-        height: 350px;
-    }
-    .slide-container{
-        padding: 30px;
-    }
-    #slider{
-        gap: 35px;
-    }
-    #slider-imagem{
-        height: 450px;
-    }
-    #slider-titulo{
-        font-size: 2.75rem;
-    }
-    #slider-descricao{
-        font-size: 2rem;
-    }
-    #container-botao{
-        font-size: 1.75rem;
-        border-radius: 20px;    
-    }
-    .rodape-titulo h5{
-        font-size: 3rem;
-        margin-bottom: 30px; 
-    }
-    .card-links-containers img{
-        height: 125px;
-    }
-    .card-links-containers h6{
-        font-size: 3rem;
-    }
-    .card-links-containers h7{
-        font-size: 3rem;
-    }
-    .card-links-containers h8{
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width: 1050px){
-    #menu-botao{
-        max-width: 45px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 40px;
-    }
-    
-    .menu-botao-ham{
-        height: 9px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(10px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(9px, -10px);
-    }
-
-    .menu-links{
-        font-size: 1.75rem;
-        padding: 10px;
-    }
-    .sobremim{
-        padding: 35px;
-        gap: 30px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 2.5rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
-    }
-    .sobremim-imagem img{
-        height: 300px;
-    }
-    .slide-container{
-        padding: 20px;
-    }
-    #slider{
-        gap: 35px;
-    }
-    #slider-imagem{
-        height: 350px;
-    }
-    #slider-titulo{
-        font-size: 2rem;
-    }
-    #slider-descricao{
-        font-size: 1.75rem;
-    }
-    #container-botao{
-        font-size: 1.55rem;
-        border-radius: 20px;    
-    }
-    .rodape-titulo h5{
-        font-size: 2.75rem;
-        margin-bottom: 30px; 
-    }
-    .card-links-containers img{
-        height: 100px;
-    }
-    .card-links-containers h6{
-        font-size: 2.5rem;
-    }
-    .card-links-containers h7{
-        font-size: 2.5rem;
-    }
-    .card-links-containers h8{
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 920px){
-    #menu{
-        height: 50px;
-    }
-
-    #menu-botao{
-        max-width: 40px;
-        padding: 10px;
-    }
-    
-    .menu-botao-in{
-        max-width: 35px;
-    }
-    
-    .menu-botao-ham{
-        height: 8px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(2px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(10px, -16px);
-    }
-
-    .menu-itens-caixa-imagem{
-        height: 35px;
-    }
-
-    .menu-itens-caixa-texto{
-        font-size: 1.6rem;
-    }
-
-    .sobremim{
-        padding: 35px;
-        gap: 30px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 2rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.25rem;
-    }
-    .sobremim-imagem img{
-        height: 275px;
-    }
-    .slide-container{
-        padding: 20px;
-    }
-    #slider{
-        gap: 30px;
-    }
-    #slider-imagem{
-        height: 300px;
-    }
-    #slider-titulo{
-        font-size: 2rem;
-    }
-    #slider-descricao{
-        font-size: 1.75rem;
-    }
-    #container-botao{
-        font-size: 1.5rem;
-        border-radius: 20px;    
-    }
-    .rodape-titulo h5{
-        font-size: 2.5rem;
-        margin-bottom: 30px; 
-    }
-    .card-links-containers img{
-        height: 75px;
-    }
-    .card-links-containers h6{
-        font-size: 2rem;
-    }
-    .card-links-containers h7{
-        font-size: 2rem;
-    }
-    .card-links-containers h8{
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 800px){
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 35px;
-    }
-    
-    .menu-botao-ham{
-        height: 8px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(8px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(8px, -10px);
-    }
-
-    .menu-itens-caixa-imagem{
-        height: 35px;
-    }
-
-    .menu-itens-caixa-texto{
-        font-size: 1.4rem;
-    }
-
-    .sobremim{
-        padding: 30px;
-        gap: 20px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 1.75rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.25rem;
-    }
-    .sobremim-imagem img{
-        height: 250px;
-    }
-    .slide-container{
-        padding: 20px;
-    }
-    #slider{
-        gap: 30px;
-    }
-    #slider-imagem{
-        height: 275px;
-    }
-    #slider-titulo{
-        font-size: 1.75rem;
-    }
-    #slider-descricao{
-        font-size: 1.25rem;
-    }
-    #container-botao{
-        font-size: 1.25rem;
-        border-radius: 20px;    
-    }
-    .rodape-titulo h5{
-        font-size: 2.25rem;
-        margin-bottom: 15px; 
-    }
-    .card-links-containers img{
-        height: 65px;
-    }
-    .card-links-containers h6{
-        font-size: 1.75rem;
-    }
-    .card-links-containers h7{
-        font-size: 1.75rem;
-    }
-    .card-links-containers h8{
-        font-size: 1.75rem;
-    }
-}
-
-@media screen and (max-width: 700px){
-    #menu{
-        height: 45px;
-    }
-
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 32px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(6px,9px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(6px, -12px);
-    }
-
-    .menu-itens-caixa-imagem{
-        height: 35px;
-    }
-
-    .menu-itens-caixa-texto{
-        font-size: 1.2rem;
-    }
-
-    .sobremim{
-        padding: 20px;
-        gap: 20px;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 1.5rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.10rem;
-    }
-    .sobremim-imagem img{
-        height: 225px;
-    }
-    .slide-container{
-        padding: 15px;
-    }
-    #slider{
-        gap: 20px;
-    }
-    #slider-imagem{
-        height: 250px;
-    }
-    #slider-titulo{
-        font-size: 1.60rem;
-    }
-    #slider-descricao{
-        font-size: 1.20rem;
-    }
-    #container-botao{
-        font-size: 1.10rem;
-        border-radius: 20px;    
-    }
-    .rodape-titulo h5{
-        font-size: 2rem;
-        margin-bottom: 15px; 
-    }
-    .card-links-containers img{
-        height: 50px;
-    }
-    .card-links-containers h6{
-        font-size: 1.5rem;
-    }
-    .card-links-containers h7{
-        font-size: 1.5rem;
-    }
-    .card-links-containers h8{
-        font-size: 1.5rem;
-    }
-}
-
-/*celular*/
-
-@media screen and (max-width: 650px){
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 30px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(6px,9px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(6px, -12px);
-    }
-
-    #menu {
-        flex-direction: row;
-        align-items: center;
-        height: 45px;
-    }
-    
-    .menu-itens{
-        flex-direction: row;
-    }
-
-    .menu-itens-caixa{
-        flex-direction: row;
-    }
-
-    .menu-itens-caixa a{
-        display: none;
-    }
-
-    .sobremim{
-        padding: 20px;
-        gap: 20px;
-        flex-direction: column-reverse;
-        text-align: inherit;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 2.25rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.25rem;
-    }
-    .sobremim-imagem img{
-        height: 250px;
-    }
-    .slide-container{
-        padding: 20px;
-    }
-    #slider{
-        flex-direction:column-reverse;
-        text-align: center;
-        gap: 15px;
-    }
-    #slider-imagem{
-        height: 300px;
-    }
-    #slider-titulo{
-        font-size: 2.25rem;
-    }
-    #slider-descricao{
-        font-size: 1.40rem;
-    }
-    #container-botao{
-        font-size: 1.75rem;
-        border-radius: 17px;    
-    }
-    .rodape-titulo h5{
-        font-size: 2.25rem;
-        margin-bottom: 15px; 
-    }
-    .card-links-containers{
-        border-radius: 10px;
-    }
-    .card-links-containers img{
-        height: 65px;
-    }
-    .card-links-containers h6{
-        font-size: 1.5rem;
-    }
-    .card-links-containers h7{
-        font-size: 1.5rem;
-    }
-    .card-links-containers h8{
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 525px){
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 30px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(6px,9px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(6px, -12px);
-    }
-
-    #menu {
-        flex-direction: column;
-        align-items: center ;
-    }
-    
-    .sobremim{
-        padding: 20px;
-        gap: 20px;
-        flex-direction: column-reverse;
-        text-align: inherit;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 2.1rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.25rem;
-    }
-    .sobremim-imagem img{
-        height: 250px;
-    }
-    .slide-container{
-        padding: 20px;
-    }
-    #slider{
-        flex-direction:column-reverse;
-        text-align: center;
-        gap: 15px;
-    }
-    #slider-imagem{
-        height: 300px;
-    }
-    #slider-titulo{
-        font-size: 2.25rem;
-    }
-    #slider-descricao{
-        font-size: 1.40rem;
-    }
-    #container-botao{
-        font-size: 1.75rem;
-        border-radius: 17px;    
-    }
-    .rodape-titulo h5{
-        font-size: 2.25rem;
-        margin-bottom: 15px; 
-    }
-    .card-links-containers img{
-        height: 50px;
-    }
-    .card-links-containers h6{
-        font-size: 1.2rem;
-    }
-    .card-links-containers h7{
-        font-size: 1.2rem;
-    }
-    .card-links-containers h8{
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (max-width: 388px){
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 30px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(6px,9px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(6px, -12px);
-    }
-
-    #menu {
-        flex-direction: column;
-        align-items: center ;
-    }
-    
-    .sobremim{
-        padding: 20px;
-        gap: 20px;
-        flex-direction: column-reverse;
-        text-align: inherit;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 1.55rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.10rem;
-    }
-    .sobremim-imagem img{
-        height: 225px;
-    }
-    .slide-container{
-        padding: 20px;
-    }
-    #slider{
-        flex-direction:column-reverse;
-        text-align: center;
-        gap: 15px;
-    }
-    #slider-imagem{
-        height: 275px;
-    }
-    #slider-titulo{
-        font-size: 2rem;
-    }
-    #slider-descricao{
-        font-size: 1.25rem;
-    }
-    #container-botao{
-        font-size: 1.5rem;
-        border-radius: 17px;    
-    }
-    .rodape-titulo h5{
-        font-size: 2rem;
-        margin-bottom: 15px; 
-    }
-    .card-links-containers img{
-        height: 45px;
-    }
-    .card-links-containers h6{
-        font-size: 1rem;
-    }
-    .card-links-containers h7{
-        font-size: 1rem;
-    }
-    .card-links-containers h8{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 340px){
-    #menu-botao{
-        max-width: 40px;
-        padding: 5px;
-    }
-    
-    .menu-itens{
-        margin-left: 20px;
-    }
-
-    .menu-botao-in{
-        max-width: 30px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        border-radius: 10px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(6px,9px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(6px, -12px);
-    }
-
-    #menu {
-        flex-direction: column;
-        align-items: center ;
-    }
-
-    .sobremim{
-        padding: 20px;
-        gap: 20px;
-        flex-direction: column-reverse;
-        text-align: inherit;
-    }
-    .sobremim-texto-titulo h1{
-        font-size: 1.45rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.05rem;
-    }
-    .sobremim-imagem img{
-        height: 220px;
-    }
-    .slide-container{
-        padding: 15px;
-    }
-    #slider{
-        flex-direction:column-reverse;
-        text-align: center;
-        gap: 15px;
-    }
-    #slider-imagem{
-        height: 255px;
-    }
-    #slider-titulo{
-        font-size: 1.8rem;
-    }
-    #slider-descricao{
-        font-size: 1.15rem;
-    }
-    #container-botao{
-        font-size: 1.4rem;
-        border-radius: 17px;    
-    }
-    .rodape-titulo h5{
-        font-size: 1.8rem;
-        margin-bottom: 15px; 
-    }
-    .card-links-containers img{
-        height: 40px;
-    }
-    .card-links-containers h6{
-        font-size: 0.9rem;
-    }
-    .card-links-containers h7{
-        font-size: 0.9rem;
-    }
-    .card-links-containers h8{
-        font-size: 0.9rem;
-    }
-}
