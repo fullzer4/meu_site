@@ -5,6 +5,11 @@ telas prontas para Home{
     1920 - pronto
     1680 - pronto
     1450 - pronto
-    1280 - reajustar
-    outras para fazer
+    1250 - pronto
+    1050 - pronto
+    850 - pronto
+    700 - pronto
+}
+celular/virado - a partir de 600{
+    600 - fazendo
 }
