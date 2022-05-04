@@ -164,19 +164,19 @@ body{
     font-family: 'Montserrat';
     font-weight: 600;
     color: var(--corsmtexto);
-    font-size: 4rem;
+    font-size: 3.25rem;
 }
 
 .sobremim-texto-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
     color: var(--corsmtexto);
-    font-size: 2.5rem;
+    font-size: 2.25rem;
 }
 
 .sobremim-imagem img{
     border-radius: 45px;
-    height: 500px;
+    height: 450px;
 }
 
 /*fim Sobre mim*/
@@ -186,7 +186,7 @@ body{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 550px;
     background: #A30CBC;
     overflow: hidden;
 }
@@ -215,13 +215,13 @@ body{
 .slide-container-titulo h1{
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 4.25rem;
+    font-size: 3.85rem;
 }
 
 .slide-container-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 2.75rem;
+    font-size: 2.55rem;
 }
 
 .slide-container-saibamais{
@@ -237,19 +237,19 @@ body{
     background: #201E1E;
     border-radius: 25px;
     width: 15%;
-    height: 50px;
+    height: 55px;
 }
 
 .btn-saibamais a{
     font-family: 'Ubuntu';
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 
 .slides{
     width: 100%;
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: row;
 }
@@ -280,7 +280,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 515px;
+    margin-top: 465px;
     gap: 25px;
 }
 
@@ -313,7 +313,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 515px;
+    margin-top: 465px;
     gap: 25px;
 }
 
@@ -356,7 +356,7 @@ body{
 .rodape-titulo h5{
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: var(--rodapetitulo);
 }
 
@@ -397,26 +397,26 @@ body{
 .card-links-containers h6{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h7{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h8{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers img{
-    height: 125px;
+    height: 115px;
 }
 
 .divisao-card-links{
@@ -445,3 +445,265 @@ body{
 /*                      Telas                     */
 /*################################################*/
 
+@media screen and (max-width: 1680px){
+    .sobremim-texto-titulo h1{
+        font-size: 3.25rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 2rem;
+    }
+    .sobremim-imagem img{
+        height: 425px;
+    }
+    .slider{
+        height: 525px;
+    }
+    .slides{
+        height: 425px;
+    }
+    .slide-container-titulo h1{
+        font-size: 3.5rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 2rem;
+    }
+    .btn-saibamais a{
+        font-size: 2rem;
+    }
+    .btn-saibamais{
+        width: 18%;
+        height: 55px;
+    }
+    .navigation-manual{
+        margin-top: 436px;
+    }
+    .navigation-auto{
+        margin-top: 436px;
+    }
+    .rodape-titulo h5{
+        font-size: 3.5rem;
+    }
+    .card-links-containers h6{
+        font-size: 2.5rem;
+    }
+    
+    .card-links-containers h7{
+        font-size: 2.5rem;
+    }
+    
+    .card-links-containers h8{
+        font-size: 2.5rem;
+    }
+    
+    .card-links-containers img{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    #menu {
+        height: 55px;
+    }
+    
+    .menu-itens-caixa-texto{
+        font-size: 1.8rem;
+    }
+    
+    .menu-itens-caixa-imagem {
+        height: 40px;
+    }
+    
+    #menu-botao{
+        max-width: 55px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 42px;
+    }
+    
+    .menu-botao-ham{
+        height: 9px;
+        margin: 4px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(10px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(8px, -12px);
+    }
+
+    .sobremim-texto-titulo h1{
+        font-size: 2.5rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.6rem;
+    }
+    .sobremim-imagem img{
+        height: 350px;
+    }
+    .slider{
+        height: 450px;
+    }
+    .slides{
+        height: 385px;
+    }
+    .slide-container-titulo h1{
+        font-size: 2.5rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 1.65rem;
+    }
+    .btn-saibamais a{
+        font-size: 1.65rem;
+    }
+    .btn-saibamais{
+        width: 18%;
+        height: 50px;
+    }
+    .navigation-manual{
+        margin-top: 390px;
+    }
+
+    .manual-btn{
+        border: 2px solid #600f6e;
+        padding: 8px;
+        border-radius: 15px;
+    }
+
+    .navigation-auto{
+        margin-top: 390px;
+    }
+
+    .navigation-auto div{
+        border: 2px solid #600f6e;
+        border-radius: 15px;
+        padding: 8px;
+        transition: 1s;
+    }
+
+    .rodape-titulo h5{
+        font-size: 2.8rem;
+    }
+    .card-links-containers h6{
+        font-size: 2rem;
+    }
+    
+    .card-links-containers h7{
+        font-size: 2rem;
+    }
+    
+    .card-links-containers h8{
+        font-size: 2rem;
+    }
+    
+    .card-links-containers img{
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    #menu {
+        height: 50px;
+    }
+    
+    .menu-itens-caixa-texto{
+        font-size: 1.8rem;
+    }
+    
+    .menu-itens-caixa-imagem {
+        height: 35px;
+    }
+    
+    #menu-botao{
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 42.5px;
+    }
+    
+    .menu-botao-ham{
+        height: 10px;
+        margin: 4px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(8px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(10px, -14px);
+    }
+
+    .sobremim-texto-titulo h1{
+        font-size: 2.40rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.65rem;
+    }
+    .sobremim-imagem img{
+        height: 350px;
+    }
+    .slider{
+        height: 425px;
+    }
+    .slides{
+        height: 325px;
+    }
+    .slide-container-titulo h1{
+        font-size: 2.75rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 1.65rem;
+    }
+    .btn-saibamais a{
+        font-size: 1.65rem;
+    }
+    .btn-saibamais{
+        width: 18%;
+        height: 50px;
+    }
+    .navigation-manual{
+        margin-top: 342px;
+    }
+
+    .manual-btn{
+        border: 2px solid #600f6e;
+        padding: 8px;
+        border-radius: 15px;
+    }
+
+    .navigation-auto{
+        margin-top: 342px;
+    }
+
+    .navigation-auto div{
+        border: 2px solid #600f6e;
+        border-radius: 15px;
+        padding: 8px;
+        transition: 1s;
+    }
+
+    .rodape-titulo h5{
+        font-size: 2.6rem;
+    }
+    .card-links-containers h6{
+        font-size: 1.8rem;
+    }
+    
+    .card-links-containers h7{
+        font-size: 1.8rem;
+    }
+    
+    .card-links-containers h8{
+        font-size: 1.8rem;
+    }
+    
+    .card-links-containers img{
+        height: 80px;
+    }
+}

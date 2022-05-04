@@ -1,2 +1,10 @@
 dataset js
 ao acabar tudo no notebook realizaar os ajustes todos do 0
+
+telas prontas para Home{
+    1920 - pronto
+    1680 - pronto
+    1450 - pronto
+    1280 - reajustar
+    outras para fazer
+}
