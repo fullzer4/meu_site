@@ -252,7 +252,6 @@ body{
     height: 450px;
     display: flex;
     flex-direction: row;
-    gap: 10px;
 }
 
 .first{
@@ -305,11 +304,11 @@ body{
 }
 
 #radio2:checked ~ .first{
-    margin-left: -100%;
+    margin-left: calc(-100% + 10px);
 }
 
 #radio3:checked ~ .first{
-    margin-left: -200%;
+    margin-left: calc(-200% + 5px);
 }
 
 .navigation-auto{
