@@ -252,10 +252,7 @@ body{
     height: 450px;
     display: flex;
     flex-direction: row;
-}
-
-.first{
-    margin-left: 10px;
+    gap: 10px;
 }
 
 .slides input{
@@ -267,7 +264,7 @@ body{
     min-width: 100%;
     max-width: 100%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     transition: 4s;
@@ -276,6 +273,7 @@ body{
 .slide img{
     height: 100%;
     border-radius: 20px;
+    margin-left: 20px;
 }
 
 .navigation-manual{
@@ -300,15 +298,15 @@ body{
 }
 
 #radio1:checked{
-    margin-left: 0;
+    margin-left: calc(0 + -5px);
 }
 
 #radio2:checked ~ .first{
-    margin-left: calc(-100% + 10px);
+    margin-left: calc(-100% + -10px);
 }
 
 #radio3:checked ~ .first{
-    margin-left: calc(-200% + 5px);
+    margin-left: calc(-200% + -15px);
 }
 
 .navigation-auto{
@@ -689,6 +687,18 @@ body{
         border-radius: 15px;
         padding: 8px;
         transition: 1s;
+    }
+
+    #radio1:checked{
+        margin-left: calc(0 + -5px);
+    }
+    
+    #radio2:checked ~ .first{
+        margin-left: calc(-100% + -10px);
+    }
+    
+    #radio3:checked ~ .first{
+        margin-left: calc(-200% + -20px);
     }
 
     .rodape-titulo h5{
