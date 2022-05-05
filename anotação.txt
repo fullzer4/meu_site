@@ -2,15 +2,15 @@ dataset js
 ao acabar tudo no notebook realizaar os ajustes todos do 0
 
 telas prontas para Home{
-    1920 - pronto
-    1680 - pronto
-    1450 - pronto
-    1250 - pronto
-    1050 - pronto
-    850 - pronto
-    700 - pronto
+    1920 - pronto slide =
+    1680 - pronto slide =
+    1450 - pronto slide =
+    1250 - pronto slide =
+    1050 - pronto slide =
+    850 - pronto slide =
+    700 - pronto slide =
 }
 celular/virado Home- a partir de 600{
     arrumar slides
-    600 - pronto
+    600 - pronto  slide =
 }
