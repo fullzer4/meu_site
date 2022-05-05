@@ -1,7 +1,7 @@
 dataset js
 ao acabar tudo no notebook realizaar os ajustes todos do 0
 
-telas prontas para Home{
+telas prontas para Home{ rever
     1920 - pronto slide =
     1680 - pronto slide =
     1450 - pronto slide =
@@ -10,7 +10,7 @@ telas prontas para Home{
     850 - pronto slide =
     700 - pronto slide =
 }
-celular/virado Home- a partir de 600{
+celular/virado Home- a partir de 600{ refazer
     arrumar slides
     600 - pronto  slide =
 }
