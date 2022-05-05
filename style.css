@@ -252,6 +252,11 @@ body{
     height: 450px;
     display: flex;
     flex-direction: row;
+    gap: 10px;
+}
+
+.first{
+    margin-left: 10px;
 }
 
 .slides input{
@@ -263,7 +268,7 @@ body{
     min-width: 100%;
     max-width: 100%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     transition: 4s;
@@ -272,7 +277,6 @@ body{
 .slide img{
     height: 100%;
     border-radius: 20px;
-    margin-left: 20px;
 }
 
 .navigation-manual{
