@@ -12,5 +12,5 @@ telas prontas para Home{
 }
 celular/virado Home- a partir de 600{
     arrumar slides
-    600 - fazendo
+    600 - pronto
 }

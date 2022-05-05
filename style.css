@@ -1059,6 +1059,7 @@ body{
 
     .sobremim{
         flex-direction: column-reverse;
+        padding: 15px;
     }
     
     .sobremim-texto-titulo h1{
@@ -1080,6 +1081,8 @@ body{
     }
     .slide{
         flex-direction: column-reverse;
+        padding: 5px;
+        text-align: center;
     }
     .slide-container-titulo h1{
         font-size: 2.5rem;
@@ -1089,6 +1092,9 @@ body{
     }
     .slide img{
         height: 50%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
     }
     .btn-saibamais a{
         font-size: 1.5rem;
@@ -1116,6 +1122,18 @@ body{
         border-radius: 15px;
         padding: 10px;
         transition: 1s;
+    }
+
+    #radio1:checked{
+        margin-left: 0;
+    }
+    
+    #radio2:checked ~ .first{
+        margin-left: calc(-100% + -10px);
+    }
+    
+    #radio3:checked ~ .first{
+        margin-left: calc(-200% + -20px);
     }
 
     .rodape-titulo h5{
@@ -1184,15 +1202,15 @@ body{
     }
 
     .sobremim-texto-titulo h1{
-        font-size: 2rem;
+        font-size: 1.85rem;
     }
 
     .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
+        font-size: 1.35rem;
     }
 
     .sobremim-imagem img{
-        height: 300px;
+        height: 280px;
     }
 
     .slider{
@@ -1203,24 +1221,24 @@ body{
     }
     
     .slide-container-titulo h1{
-        font-size: 2.15rem;
+        font-size: 2rem;
     }
 
     .slide-container-descricao h2{ 
-        font-size: 1.45rem;
+        font-size: 1.4rem;
     }
     .slide img{
-        height: 50%;
+        height: 45%;
     }
     .btn-saibamais a{
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
     .btn-saibamais{
         width: 25%;
-        height: 50px;
+        height: 40px;
     }
     .navigation-manual{
-        margin-top: 775px;
+        margin-top: 770px;
     }
 
     .manual-btn{
@@ -1230,7 +1248,7 @@ body{
     }
 
     .navigation-auto{
-        margin-top: 775px;
+        margin-top: 770px;
     }
 
     .navigation-auto div{
@@ -1245,7 +1263,7 @@ body{
     }
 
     .card-links-containers img{
-        height: 100px;
+        height: 80px;
     }
     
 }
@@ -1265,61 +1283,64 @@ body{
     
     #menu-botao{
         max-width: 45px;
-        padding: 5px;
+        padding: 2.5px;
     }
     
     .menu-botao-in{
-        max-width: 45px;
+        max-width: 40px;
     }
     
     .menu-botao-ham{
-        height: 11px;
+        height: 10px;
         margin: 4px;
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(12px,8px);
+        transform: rotate(55deg) translate(12px,10px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(12px, -10px);
+        transform: rotate(-55deg) translate(8px, -10px);
     }
 
     .sobremim-texto-titulo h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .sobremim-imagem img{
-        height: 300px;
+        height: 250px;
     }
 
     .slider{
-      
-        height: 800px;
+        height: 910px;
     }
     .slides{
-        height: 800px;
+        height: 900px;
+    }
+
+    .slide{
+        align-items: center;
     }
     
     .slide-container-titulo h1{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     .slide-container-descricao h2{ 
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
     .slide img{
-        height: 50%;
+        height: 38%;
     }
     .btn-saibamais a{
         font-size: 1.5rem;
     }
     .btn-saibamais{
-        width: 25%;
+        width: 45%;
         height: 50px;
     }
     .navigation-manual{
