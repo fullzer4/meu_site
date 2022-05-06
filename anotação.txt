@@ -7,10 +7,10 @@ telas prontas para Home{ rever
     1450 - pronto
     1250 - pronto
     1050 - pronto
-    850 - 
-    700 - 
 }
-celular/virado Home- a partir de 600{ refazer
-    arrumar slides
-    600 - 
+celular/ipad Home- a partir de 600{ 
+    850 -
+    700 - 
+    500 - pronto
+    300 - 
 }

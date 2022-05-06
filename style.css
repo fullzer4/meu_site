@@ -60,6 +60,12 @@ body{
 .menu-itens-caixa {
     display: flex;
     flex-direction: row;
+}
+
+.link-box{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
     gap: 3px;
 }
 
@@ -861,6 +867,7 @@ body{
     }
 }
 
+/*ipads*/
 
 @media screen and (max-width: 850px){
     #menu {
@@ -868,7 +875,7 @@ body{
     }
     
     .menu-itens-caixa-texto{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .menu-itens-caixa-imagem {
@@ -876,78 +883,78 @@ body{
     }
     
     #menu-botao{
-        max-width: 45px;
+        max-width: 50px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 26px;
+        max-width: 25px;
     }
     
     .menu-botao-ham{
-        height: 6px;
+        height: 5px;
         margin: 3px;
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(4px,6px);
+        transform: rotate(55deg) translate(3px,7px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(7px, -10px);
+        transform: rotate(-55deg) translate(5px, -10px);
     }
 
     .sobremim-texto-titulo h1{
-        font-size: 1.65rem;
+        font-size: 1.25rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 1.1rem;
-    }
-    .sobremim-imagem img{
-        height: 220px;
-    }
-    .slider{
-        height: 300px;
-    }
-    .slides{
-        height: 225px;
-    }
-    .slide-container-titulo h1{
-        font-size: 1.65rem;
-    }
-    .slide-container-descricao h2{
-        font-size: 1.1rem;
-    }
-    .btn-saibamais a{
         font-size: 0.8rem;
     }
+    .sobremim-imagem img{
+        height: 200px;
+    }
+    .slider{
+        height: 250px;
+    }
+    .slides{
+        height: 200px;
+    }
+    .slide-container-titulo h1{
+        font-size: 1.25rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 0.8rem;
+    }
+    .btn-saibamais a{
+        font-size: 0.75rem;
+    }
     .btn-saibamais{
-        width: 16%;
-        height: 25px;
+        width: 12%;
+        height: 20px;
     }
     .navigation-manual{
-        margin-top: 235px;
+        margin-top: 200px;
     }
 
     .manual-btn{
         border: 2px solid #600f6e;
-        padding: 8px;
+        padding: 5px;
         border-radius: 15px;
     }
 
     .navigation-auto{
-        margin-top: 235px;
+        margin-top: 200px;
     }
 
     .navigation-auto div{
         border: 2px solid #600f6e;
         border-radius: 15px;
-        padding: 8px;
+        padding: 5px;
         transition: 1s;
     }
 
     .rodape-titulo h5{
-        font-size: 1.65rem;
+        font-size: 1.5rem;
     }
     .card-links-containers h6{
         font-size: 1rem;
@@ -968,19 +975,125 @@ body{
 
 @media screen and (max-width: 700px){
     #menu {
-        height: 35px;
+        height: 30px;
     }
     
     .menu-itens-caixa-texto{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     
     .menu-itens-caixa-imagem {
-        height: 25px;
+        height: 20px;
     }
     
     #menu-botao{
-        max-width: 45px;
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 20px;
+    }
+    
+    .menu-botao-ham{
+        height: 4px;
+        margin: 2px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(3px,5px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(4px, -6px);
+    }
+
+    .sobremim-texto-titulo h1{
+        font-size: 1rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 0.7rem;
+    }
+    .sobremim-imagem img{
+        height: 175px;
+    }
+    .slider{
+        height: 225px;
+    }
+    .slides{
+        height: 175px;
+    }
+    .slide-container-titulo h1{
+        font-size: 1rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 0.7rem;
+    }
+    .btn-saibamais a{
+        font-size: 0.55rem;
+    }
+    .btn-saibamais{
+        width: 14%;
+        height: 20px;
+    }
+    .navigation-manual{
+        margin-top: 175px;
+    }
+
+    .manual-btn{
+        border: 2px solid #600f6e;
+        padding: 4px;
+        border-radius: 15px;
+    }
+
+    .navigation-auto{
+        margin-top: 175px;
+    }
+
+    .navigation-auto div{
+        border: 2px solid #600f6e;
+        border-radius: 15px;
+        padding: 4px;
+        transition: 1s;
+    }
+
+    .rodape-titulo h5{
+        font-size: 1.25rem;
+    }
+    .card-links-containers h6{
+        font-size: 0.8rem;
+    }
+    
+    .card-links-containers h7{
+        font-size: 0.8rem;
+    }
+    
+    .card-links-containers h8{
+        font-size: 0.8rem;
+    }
+    
+    .card-links-containers img{
+        height: 45px;
+    }
+}
+
+/*celular*/
+
+@media screen and (max-width: 500px){
+    #menu {
+        height: 40px;
+    }
+    
+    .menu-itens-caixa-texto{
+        display: none;
+    }
+    
+    .menu-itens-caixa-imagem {
+        height: 30px;
+    }
+    
+    #menu-botao{
+        max-width: 50px;
         padding: 5px;
     }
     
@@ -994,191 +1107,80 @@ body{
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(4px,6px);
+        transform: rotate(55deg) translate(8px,5px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(7px, -10px);
-    }
-
-    .sobremim-texto-titulo h1{
-        font-size: 1.4rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1rem;
-    }
-    .sobremim-imagem img{
-        height: 200px;
-    }
-    .slider{
-        height: 250px;
-    }
-    .slides{
-        height: 200px;
-    }
-    .slide-container-titulo h1{
-        font-size: 1.4rem;
-    }
-    .slide-container-descricao h2{
-        font-size: 1rem;
-    }
-    .btn-saibamais a{
-        font-size: 0.75rem;
-    }
-    .btn-saibamais{
-        width: 16%;
-        height: 25px;
-    }
-    .navigation-manual{
-        margin-top: 200px;
-    }
-
-    .manual-btn{
-        border: 2px solid #600f6e;
-        padding: 7px;
-        border-radius: 15px;
-    }
-
-    .navigation-auto{
-        margin-top: 200px;
-    }
-
-    .navigation-auto div{
-        border: 2px solid #600f6e;
-        border-radius: 15px;
-        padding: 7px;
-        transition: 1s;
-    }
-
-    .rodape-titulo h5{
-        font-size: 1.65rem;
-    }
-    .card-links-containers h6{
-        font-size: 1rem;
-    }
-    
-    .card-links-containers h7{
-        font-size: 1rem;
-    }
-    
-    .card-links-containers h8{
-        font-size: 1rem;
-    }
-    
-    .card-links-containers img{
-        height: 50px;
-    }
-}
-
-/*celular*/
-
-@media screen and (max-width: 600px){
-    #menu {
-        height: 60px;
-    }
-    
-    .menu-itens-caixa-texto{
-        display: none;
-    }
-    
-    .menu-itens-caixa-imagem {
-        height: 45px;
-    }
-    
-    #menu-botao{
-        max-width: 45px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 45px;
-    }
-    
-    .menu-botao-ham{
-        height: 11px;
-        margin: 4px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(12px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(12px, -10px);
+        transform: rotate(-55deg) translate(6px, -6px);
     }
 
     .sobremim{
         flex-direction: column-reverse;
     }
-    
+
     .sobremim-texto-titulo h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .sobremim-imagem img{
-        height: 300px;
+        height: 225px;
     }
     .slider{
-        flex-direction: column;
-        height: 800px;
-        align-items: flex-start;
+        height: 550px;
     }
     .slides{
-        height: 800px;
+        height: 450px;
     }
+
     .slide{
+        gap: 20px;
         flex-direction: column-reverse;
     }
+
     .slide-container-titulo h1{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .slide-container-descricao h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
+
     .slide img{
-        height: 50%;
+        height: 60%;
+        margin-left: 0;
     }
+
     .btn-saibamais a{
-        font-size: 1.5rem;
+        font-size: 0.8rem;
     }
     .btn-saibamais{
-        width: 25%;
-        height: 50px;
+        width: 22%;
+        height: 20px;
     }
     .navigation-manual{
-        margin-top: 765px;
+        margin-top: 475px;
     }
 
     .manual-btn{
         border: 2px solid #600f6e;
-        padding: 10px;
+        padding: 8px;
         border-radius: 15px;
     }
 
     .navigation-auto{
-        margin-top: 765px;
+        margin-top: 475px;
     }
 
     .navigation-auto div{
         border: 2px solid #600f6e;
         border-radius: 15px;
-        padding: 10px;
+        padding: 8px;
         transition: 1s;
     }
 
     .rodape-titulo h5{
-        font-size: 2.5rem;
-    }
-    .card-links-1{
-        padding-right: 0px;
-    }
-    .card-links-2{
-        padding-right: 0px;
-    }
-    .card-links-3{
-        padding-right: 0px;
+        font-size: 1.5rem;
     }
     .card-links-containers h6{
         display: none;
@@ -1193,212 +1195,18 @@ body{
     }
     
     .card-links-containers img{
-        height: 100px;
-    }
-    
-}
-
-@media screen and (max-width: 450px){
-    #menu {
         height: 60px;
     }
 
-    .menu-itens{
-        margin-left: 15px;
+    .card-links-1{
+        padding-right: 0px;
     }
 
-    .menu-itens-caixa-imagem {
-        height: 45px;
-    }
-    
-    #menu-botao{
-        max-width: 45px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 45px;
-    }
-    
-    .menu-botao-ham{
-        height: 11px;
-        margin: 4px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(12px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(12px, -10px);
+    .card-links-2{
+        padding-right: 0px;
     }
 
-    .sobremim-texto-titulo h1{
-        font-size: 2rem;
+    .card-links-3{
+        padding-right: 0px;
     }
-
-    .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
-    }
-
-    .sobremim-imagem img{
-        height: 300px;
-    }
-
-    .slider{
-        height: 800px;
-    }
-    .slides{
-        height: 800px;
-    }
-    
-    .slide-container-titulo h1{
-        font-size: 2.15rem;
-    }
-
-    .slide-container-descricao h2{ 
-        font-size: 1.45rem;
-    }
-    .slide img{
-        height: 50%;
-    }
-    .btn-saibamais a{
-        font-size: 1.25rem;
-    }
-    .btn-saibamais{
-        width: 25%;
-        height: 50px;
-    }
-    .navigation-manual{
-        margin-top: 775px;
-    }
-
-    .manual-btn{
-        border: 2px solid #600f6e;
-        padding: 10px;
-        border-radius: 15px;
-    }
-
-    .navigation-auto{
-        margin-top: 775px;
-    }
-
-    .navigation-auto div{
-        border: 2px solid #600f6e;
-        border-radius: 15px;
-        padding: 10px;
-        transition: 1s;
-    }
-
-    .rodape-titulo h5{
-        font-size: 2.5rem;
-    }
-
-    .card-links-containers img{
-        height: 100px;
-    }
-    
-}
-
-@media screen and (max-width: 380px){
-    #menu {
-        height: 60px;
-    }
-
-    .menu-itens{
-        margin-left: 25px;
-    }
-
-    .menu-itens-caixa-imagem {
-        height: 45px;
-    }
-    
-    #menu-botao{
-        max-width: 45px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 45px;
-    }
-    
-    .menu-botao-ham{
-        height: 11px;
-        margin: 4px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(12px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(12px, -10px);
-    }
-
-    .sobremim-texto-titulo h1{
-        font-size: 2rem;
-    }
-
-    .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
-    }
-
-    .sobremim-imagem img{
-        height: 300px;
-    }
-
-    .slider{
-      
-        height: 800px;
-    }
-    .slides{
-        height: 800px;
-    }
-    
-    .slide-container-titulo h1{
-        font-size: 2.5rem;
-    }
-
-    .slide-container-descricao h2{ 
-        font-size: 1.5rem;
-    }
-    .slide img{
-        height: 50%;
-    }
-    .btn-saibamais a{
-        font-size: 1.5rem;
-    }
-    .btn-saibamais{
-        width: 25%;
-        height: 50px;
-    }
-    .navigation-manual{
-        margin-top: 765px;
-    }
-
-    .manual-btn{
-        border: 2px solid #600f6e;
-        padding: 10px;
-        border-radius: 15px;
-    }
-
-    .navigation-auto{
-        margin-top: 765px;
-    }
-
-    .navigation-auto div{
-        border: 2px solid #600f6e;
-        border-radius: 15px;
-        padding: 10px;
-        transition: 1s;
-    }
-
-    .rodape-titulo h5{
-        font-size: 2.5rem;
-    }
-
-    .card-links-containers img{
-        height: 100px;
-    }
-    
 }
