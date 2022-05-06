@@ -45,7 +45,7 @@ body{
     justify-content: space-around;
     background: var(--cormenu);
     position: relative;
-    height: 65px;
+    height: 55px;
 }
 
 .menu-itens {
@@ -72,12 +72,12 @@ body{
     transition: .3s;
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 2.25rem;
+    font-size: 1.8rem;
     color: var(--cormenuL);
 }
 
 .menu-itens-caixa-imagem {
-    height: 50px;
+    height: 40px;
 }
 
 .menu-itens-caixa-texto::before {
@@ -103,7 +103,7 @@ body{
 #menu-botao{
     position: absolute;
     width: 100%;
-    max-width: 65px;
+    max-width: 55px;
     padding: 5px;
     top: 0;
     left: 0;
@@ -112,12 +112,12 @@ body{
 .menu-botao-in{
     position: relative;
     width: 100%;
-    max-width: 55px;
+    max-width: 45px;
 }
 
 .menu-botao-ham{
     width: 100%;
-    height: 12px;
+    height: 10px;
     margin: 4px;
     border-radius: 10px;
     background: var(--corham1);
@@ -125,7 +125,7 @@ body{
 }
 
 .hanima1{
-    transform: rotate(55deg) translate(16px,8px);
+    transform: rotate(55deg) translate(12px,8px);
     background: var(--corham2);
 }
 
@@ -164,19 +164,19 @@ body{
     font-family: 'Montserrat';
     font-weight: 600;
     color: var(--corsmtexto);
-    font-size: 3.25rem;
+    font-size: 2.5rem;
 }
 
 .sobremim-texto-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
     color: var(--corsmtexto);
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 .sobremim-imagem img{
     border-radius: 45px;
-    height: 450px;
+    height: 400px;
 }
 
 /*fim Sobre mim*/
@@ -186,7 +186,7 @@ body{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 550px;
+    height: 450px;
     background: #A30CBC;
     overflow: hidden;
 }
@@ -215,13 +215,13 @@ body{
 .slide-container-titulo h1{
     font-family: 'Montserrat';
     font-weight: 600;
-    font-size: 3.85rem;
+    font-size: 2.5rem;
 }
 
 .slide-container-descricao h2{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 2.55rem;
+    font-size: 2rem;
 }
 
 .slide-container-saibamais{
@@ -236,20 +236,20 @@ body{
     text-align: center;
     background: #201E1E;
     border-radius: 25px;
-    width: 15%;
-    height: 55px;
+    width: 12%;
+    height: 50px;
 }
 
 .btn-saibamais a{
     font-family: 'Ubuntu';
     font-weight: 400;
     color: #FFFFFF;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
 }
 
 .slides{
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: flex;
     flex-direction: row;
 }
@@ -280,7 +280,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 465px;
+    margin-top: 390px;
     gap: 25px;
 }
 
@@ -313,7 +313,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 465px;
+    margin-top: 390px;
     gap: 25px;
 }
 
@@ -356,7 +356,7 @@ body{
 .rodape-titulo h5{
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--rodapetitulo);
 }
 
@@ -397,26 +397,26 @@ body{
 .card-links-containers h6{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h7{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers h8{
     font-family: 'Ubuntu';
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: var(--cardtexto);
 }
 
 .card-links-containers img{
-    height: 115px;
+    height: 100px;
 }
 
 .divisao-card-links{
@@ -446,80 +446,25 @@ body{
 /*################################################*/
 
 @media screen and (max-width: 1680px){
-    .sobremim-texto-titulo h1{
-        font-size: 3.25rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 2rem;
-    }
-    .sobremim-imagem img{
-        height: 425px;
-    }
-    .slider{
-        height: 525px;
-    }
-    .slides{
-        height: 425px;
-    }
-    .slide-container-titulo h1{
-        font-size: 3.5rem;
-    }
-    .slide-container-descricao h2{
-        font-size: 2rem;
-    }
-    .btn-saibamais a{
-        font-size: 2rem;
-    }
-    .btn-saibamais{
-        width: 18%;
-        height: 55px;
-    }
-    .navigation-manual{
-        margin-top: 436px;
-    }
-    .navigation-auto{
-        margin-top: 436px;
-    }
-    .rodape-titulo h5{
-        font-size: 3.5rem;
-    }
-    .card-links-containers h6{
-        font-size: 2.5rem;
-    }
-    
-    .card-links-containers h7{
-        font-size: 2.5rem;
-    }
-    
-    .card-links-containers h8{
-        font-size: 2.5rem;
-    }
-    
-    .card-links-containers img{
-        height: 100px;
-    }
-}
-
-@media screen and (max-width: 1450px){
     #menu {
-        height: 55px;
+        height: 50px;
     }
     
     .menu-itens-caixa-texto{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .menu-itens-caixa-imagem {
-        height: 40px;
+        height: 35px;
     }
     
     #menu-botao{
-        max-width: 55px;
+        max-width: 50px;
         padding: 5px;
     }
     
     .menu-botao-in{
-        max-width: 42px;
+        max-width: 40px;
     }
     
     .menu-botao-ham{
@@ -528,64 +473,64 @@ body{
     }
     
     .hanima1{
-        transform: rotate(55deg) translate(10px,8px);
+        transform: rotate(55deg) translate(8px,8px);
     }
     
     .hanima3{
-        transform: rotate(-55deg) translate(8px, -12px);
+        transform: rotate(-55deg) translate(9px, -12px);
     }
 
     .sobremim-texto-titulo h1{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 1.6rem;
+        font-size: 1.75rem;
     }
     .sobremim-imagem img{
         height: 350px;
     }
     .slider{
-        height: 450px;
+        height: 400px;
     }
     .slides{
-        height: 385px;
+        height: 350px;
     }
     .slide-container-titulo h1{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
     .slide-container-descricao h2{
-        font-size: 1.65rem;
+        font-size: 1.75rem;
     }
     .btn-saibamais a{
-        font-size: 1.65rem;
+        font-size: 1.5rem;
     }
     .btn-saibamais{
-        width: 18%;
-        height: 50px;
+        width: 13%;
+        height: 30px;
     }
     .navigation-manual{
-        margin-top: 390px;
+        margin-top: 350px;
     }
 
     .manual-btn{
         border: 2px solid #600f6e;
-        padding: 8px;
+        padding: 6px;
         border-radius: 15px;
     }
 
     .navigation-auto{
-        margin-top: 390px;
+        margin-top: 350px;
     }
 
     .navigation-auto div{
         border: 2px solid #600f6e;
         border-radius: 15px;
-        padding: 8px;
+        padding: 6px;
         transition: 1s;
     }
 
     .rodape-titulo h5{
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
     .card-links-containers h6{
         font-size: 2rem;
@@ -600,7 +545,111 @@ body{
     }
     
     .card-links-containers img{
-        height: 85px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    #menu {
+        height: 45px;
+    }
+    
+    .menu-itens-caixa-texto{
+        font-size: 1.4rem;
+    }
+    
+    .menu-itens-caixa-imagem {
+        height: 30px;
+    }
+    
+    #menu-botao{
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 35px;
+    }
+    
+    .menu-botao-ham{
+        height: 7px;
+        margin: 4px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(8px,8px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(6px, -10px);
+    }
+
+    .sobremim-texto-titulo h1{
+        font-size: 2rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1.5rem;
+    }
+    .sobremim-imagem img{
+        height: 300px;
+    }
+    .slider{
+        height: 350px;
+    }
+    .slides{
+        height: 300px;
+    }
+    .slide-container-titulo h1{
+        font-size: 2rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 1.5rem;
+    }
+    .btn-saibamais a{
+        font-size: 1.25rem;
+    }
+    .btn-saibamais{
+        width: 15%;
+        height: 30px;
+    }
+    .navigation-manual{
+        margin-top: 300px;
+    }
+
+    .manual-btn{
+        border: 2px solid #600f6e;
+        padding: 6px;
+        border-radius: 15px;
+    }
+
+    .navigation-auto{
+        margin-top: 300px;
+    }
+
+    .navigation-auto div{
+        border: 2px solid #600f6e;
+        border-radius: 15px;
+        padding: 6px;
+        transition: 1s;
+    }
+
+    .rodape-titulo h5{
+        font-size: 2.25rem;
+    }
+    .card-links-containers h6{
+        font-size: 1.75rem;
+    }
+    
+    .card-links-containers h7{
+        font-size: 1.75rem;
+    }
+    
+    .card-links-containers h8{
+        font-size: 1.75rem;
+    }
+    
+    .card-links-containers img{
+        height: 65px;
     }
 }
 
@@ -640,120 +689,16 @@ body{
     }
 
     .sobremim-texto-titulo h1{
-        font-size: 2rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.45rem;
-    }
-    .sobremim-imagem img{
-        height: 300px;
-    }
-    .slider{
-        height: 400px;
-    }
-    .slides{
-        height: 300px;
-    }
-    .slide-container-titulo h1{
-        font-size: 2.45rem;
-    }
-    .slide-container-descricao h2{
-        font-size: 1.45rem;
-    }
-    .btn-saibamais a{
-        font-size: 1.45rem;
-    }
-    .btn-saibamais{
-        width: 18%;
-        height: 40px;
-    }
-    .navigation-manual{
-        margin-top: 312px;
-    }
-
-    .manual-btn{
-        border: 2px solid #600f6e;
-        padding: 8px;
-        border-radius: 15px;
-    }
-
-    .navigation-auto{
-        margin-top: 312px;
-    }
-
-    .navigation-auto div{
-        border: 2px solid #600f6e;
-        border-radius: 15px;
-        padding: 8px;
-        transition: 1s;
-    }
-
-    .rodape-titulo h5{
-        font-size: 2.4rem;
-    }
-    .card-links-containers h6{
-        font-size: 1.7rem;
-    }
-    
-    .card-links-containers h7{
-        font-size: 1.7rem;
-    }
-    
-    .card-links-containers h8{
-        font-size: 1.7rem;
-    }
-    
-    .card-links-containers img{
-        height: 70px;
-    }
-}
-
-@media screen and (max-width: 1050px){
-    #menu {
-        height: 40px;
-    }
-    
-    .menu-itens-caixa-texto{
-        font-size: 1.4rem;
-    }
-    
-    .menu-itens-caixa-imagem {
-        height: 30px;
-    }
-    
-    #menu-botao{
-        max-width: 45px;
-        padding: 5px;
-    }
-    
-    .menu-botao-in{
-        max-width: 32px;
-    }
-    
-    .menu-botao-ham{
-        height: 7px;
-        margin: 4px;
-    }
-    
-    .hanima1{
-        transform: rotate(55deg) translate(4px,8px);
-    }
-    
-    .hanima3{
-        transform: rotate(-55deg) translate(7px, -14px);
-    }
-
-    .sobremim-texto-titulo h1{
         font-size: 1.75rem;
     }
     .sobremim-texto-descricao h2{
         font-size: 1.25rem;
     }
     .sobremim-imagem img{
-        height: 275px;
+        height: 250px;
     }
     .slider{
-        height: 350px;
+        height: 300px;
     }
     .slides{
         height: 250px;
@@ -768,32 +713,136 @@ body{
         font-size: 1.25rem;
     }
     .btn-saibamais{
-        width: 18%;
+        width: 15%;
         height: 30px;
     }
     .navigation-manual{
-        margin-top: 265px;
+        margin-top: 255px;
     }
 
     .manual-btn{
         border: 2px solid #600f6e;
-        padding: 8px;
+        padding: 6px;
         border-radius: 15px;
     }
 
     .navigation-auto{
-        margin-top: 265px;
+        margin-top: 255px;
     }
 
     .navigation-auto div{
         border: 2px solid #600f6e;
         border-radius: 15px;
-        padding: 8px;
+        padding: 6px;
         transition: 1s;
     }
 
     .rodape-titulo h5{
         font-size: 2rem;
+    }
+    .card-links-containers h6{
+        font-size: 1.5rem;
+    }
+    
+    .card-links-containers h7{
+        font-size: 1.5rem;
+    }
+    
+    .card-links-containers h8{
+        font-size: 1.5rem;
+    }
+    
+    .card-links-containers img{
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    #menu {
+        height: 40px;
+    }
+    
+    .menu-itens-caixa-texto{
+        font-size: 1.2rem;
+    }
+    
+    .menu-itens-caixa-imagem {
+        height: 27.5px;
+    }
+    
+    #menu-botao{
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 30px;
+    }
+    
+    .menu-botao-ham{
+        height: 6px;
+        margin: 3px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(5px,7px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(5px, -10px);
+    }
+
+    .sobremim-texto-titulo h1{
+        font-size: 1.50rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 1rem;
+    }
+    .sobremim-imagem img{
+        height: 225px;
+    }
+    .slider{
+        height: 275px;
+    }
+    .slides{
+        height: 225px;
+    }
+    .slide-container-titulo h1{
+        font-size: 1.5rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 1rem;
+    }
+    .btn-saibamais a{
+        font-size: 1rem;
+    }
+    .btn-saibamais{
+        width: 15%;
+        height: 25px;
+    }
+    .navigation-manual{
+        margin-top: 225px;
+    }
+
+    .manual-btn{
+        border: 2px solid #600f6e;
+        padding: 6px;
+        border-radius: 15px;
+    }
+
+    .navigation-auto{
+        margin-top: 225px;
+    }
+
+    .navigation-auto div{
+        border: 2px solid #600f6e;
+        border-radius: 15px;
+        padding: 6px;
+        transition: 1s;
+    }
+
+    .rodape-titulo h5{
+        font-size: 1.75rem;
     }
     .card-links-containers h6{
         font-size: 1.25rem;
@@ -808,9 +857,10 @@ body{
     }
     
     .card-links-containers img{
-        height: 60px;
+        height: 55px;
     }
 }
+
 
 @media screen and (max-width: 850px){
     #menu {
