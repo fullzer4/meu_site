@@ -1137,6 +1137,7 @@ body{
     .slide{
         gap: 20px;
         flex-direction: column-reverse;
+        width: calc(100% - 5px);
     }
 
     .slide-container-titulo h1{
@@ -1196,6 +1197,140 @@ body{
     
     .card-links-containers img{
         height: 60px;
+    }
+
+    .card-links-1{
+        padding-right: 0px;
+    }
+
+    .card-links-2{
+        padding-right: 0px;
+    }
+
+    .card-links-3{
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #menu {
+        height: 40px;
+    }
+    
+    .menu-itens-caixa-texto{
+        display: none;
+    }
+    
+    .menu-itens-caixa-imagem {
+        height: 28px;
+    }
+    
+    #menu-botao{
+        max-width: 50px;
+        padding: 5px;
+    }
+    
+    .menu-botao-in{
+        max-width: 28px;
+    }
+    
+    .menu-botao-ham{
+        height: 6px;
+        margin: 3px;
+    }
+    
+    .hanima1{
+        transform: rotate(55deg) translate(4px,9px);
+    }
+    
+    .hanima3{
+        transform: rotate(-55deg) translate(4px, -11px);
+    }
+
+    .sobremim{
+        flex-direction: column-reverse;
+        padding: 25px
+    }
+
+    .sobremim-texto-titulo h1{
+        font-size: 1.35rem;
+    }
+    .sobremim-texto-descricao h2{
+        font-size: 0.9rem;
+    }
+    .sobremim-imagem img{
+        height: 200px;
+    }
+    .slider{
+        height: 550px;
+    }
+    .slides{
+        height: 450px;
+    }
+
+    .slide{
+        gap: 20px;
+        flex-direction: column-reverse;
+        width: calc(100% - 5px);
+    }
+
+    .slide-container-titulo h1{
+        font-size: 1.4rem;
+    }
+    .slide-container-descricao h2{
+        font-size: 0.95rem;
+    }
+
+    .slide img{
+        height: 60%;
+        margin-left: 0;
+    }
+
+    .btn-saibamais a{
+        font-size: 0.75rem;
+    }
+    .btn-saibamais{
+        width: 22%;
+        height: 20px;
+    }
+    .navigation-manual{
+        margin-top: 475px;
+    }
+
+    .manual-btn{
+        border: 2px solid #600f6e;
+        padding: 8px;
+        border-radius: 15px;
+    }
+
+    .navigation-auto{
+        margin-top: 475px;
+    }
+
+    .navigation-auto div{
+        border: 2px solid #600f6e;
+        border-radius: 15px;
+        padding: 8px;
+        transition: 1s;
+    }
+
+    .rodape-titulo h5{
+        font-size: 1.5rem;
+    }
+    .card-links-containers h6{
+        display: none;
+    }
+    
+    .card-links-containers h7{
+        display: none;
+    }
+    
+    .card-links-containers h8{
+        display: none;
+    }
+    
+    .card-links-containers img{
+        height: 55px;
     }
 
     .card-links-1{

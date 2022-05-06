@@ -59,6 +59,13 @@ body{
     gap: 3px;
 }
 
+.link-box{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 3px;
+}
+
 .menu-itens-caixa-texto {
     display: flex;
     align-items:flex-end;

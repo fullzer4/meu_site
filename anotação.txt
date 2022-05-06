@@ -1,16 +1,5 @@
 arrumar slide js sem botao
-ao acabar tudo no notebook realizaar os ajustes todos do 0
+home do site - pronta 100% reponsivo
 
-telas prontas para Home{ rever
-    1920 - pronto
-    1680 - pronto
-    1450 - pronto
-    1250 - pronto
-    1050 - pronto
-}
-celular/ipad Home- a partir de 600{ 
-    850 -
-    700 - 
-    500 - pronto
-    300 - 
-}
+Projetos 
+telas:
