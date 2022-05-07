@@ -867,8 +867,6 @@ body{
     }
 }
 
-/*ipads*/
-
 @media screen and (max-width: 850px){
     #menu {
         height: 35px;
