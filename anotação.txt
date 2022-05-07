@@ -1,5 +1,5 @@
 arrumar slide js sem botao
-home do site - pronta 100% reponsivo
+home do site - pronta 100% reponsivo - refazer o mobile
 
 Projetos 
 telas:
