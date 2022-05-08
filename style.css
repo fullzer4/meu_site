@@ -272,7 +272,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    transition: 4s;
+    transition: 2s;
 }
 
 .slide img{
