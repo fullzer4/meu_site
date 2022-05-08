@@ -18,7 +18,14 @@ body{
     --corham1: #A30CBC;
     --corham2: #201E1E;
     --cormenuL: #201E1E;
-    --cortexto: #FFFFFF;
+    --corsmtexto: #FFFFFF;
+    --corslider: #A30CBC;
+    --corbotaoslide: #201E1E;
+    --corbotaoslidetexto: #FFFFFF;
+    --rodapetitulo: #FFFFFF;
+    --cardrodape: #201E1E;
+    --cardtexto: #FFFFFF;
+    --divisaocard: #1D1B1B;
 }
 
 #pagina{
@@ -34,7 +41,7 @@ body{
     justify-content: space-around;
     background: var(--cormenu);
     position: relative;
-    height: 60px;
+    height: 55px;
 }
 
 .menu-itens {
@@ -52,6 +59,13 @@ body{
     gap: 3px;
 }
 
+.link-box{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 3px;
+}
+
 .menu-itens-caixa-texto {
     display: flex;
     align-items:flex-end;
@@ -61,7 +75,7 @@ body{
     transition: .3s;
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--cormenuL);
 }
 
@@ -92,7 +106,7 @@ body{
 #menu-botao{
     position: absolute;
     width: 100%;
-    max-width: 65px;
+    max-width: 55px;
     padding: 5px;
     top: 0;
     left: 0;
@@ -101,12 +115,12 @@ body{
 .menu-botao-in{
     position: relative;
     width: 100%;
-    max-width: 60px;
+    max-width: 45px;
 }
 
 .menu-botao-ham{
     width: 100%;
-    height: 12px;
+    height: 10px;
     margin: 4px;
     border-radius: 10px;
     background: var(--corham1);
@@ -114,7 +128,7 @@ body{
 }
 
 .hanima1{
-    transform: rotate(55deg) translate(17px,8px);
+    transform: rotate(55deg) translate(12px,8px);
     background: var(--corham2);
 }
 
