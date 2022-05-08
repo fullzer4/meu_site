@@ -454,103 +454,66 @@ body{
 
     .caixa-imgfll img{
         height: 350px;
-        border-radius: 50px;
     }
 
     .container-titulofll h1{
-        font-family: 'Ubuntu';
-        font-weight: 400;
         font-size: 3rem;
-        color: #FFFFFF;
     }
 
     .container-descricao1fll h2{
-        font-family: 'Ubuntu';
-        font-weight: 300;
         font-size: 1.75rem;
-        color: #FFFFFF;
     }
 
     .container-descricao2fll h3{
-        font-family: 'Ubuntu';
-         font-weight: 300;
          font-size: 1.75rem;
-         color: #FFFFFF; 
      }
 
      #videofll {
         height: 350px;
-        border-radius: 20px;
     }
 
     .caixa-imgbdf img{
         height: 350px;
-        border-radius: 50px;
     }
 
     .container-titulobdf h1{
-        font-family: 'Ubuntu';
-        font-weight: 400;
         font-size: 3rem;
-        color: #0C0C0C;
     }
 
     .container-descricao1bdf h2{
-        font-family: 'Ubuntu';
-        font-weight: 300;
         font-size: 1.75rem;
-        color: #0C0C0C;
     }
 
     .container-descricao2bdf a{
-        font-family: 'Ubuntu';
-        font-weight: 300;
         font-size: 1.75rem;
-        color: #0C0C0C; 
-        text-decoration: underline;
     }
 
     .container-descricao2bdf h3{
-        font-family: 'Ubuntu';
-         font-weight: 300;
          font-size: 1.75rem;
-         color: #0C0C0C; 
      }
 
     #videobdf {
         height: 350px;
-        border-radius: 20px;
     }
 
     .caixa-imgesp img{
         height: 350px;
-        border-radius: 50px;
     }
 
     .container-tituloesp h1{
-        font-family: 'Ubuntu';
-        font-weight: 400;
         font-size: 3rem;
-        color: #FFFFFF;
     }
 
     .container-descricao1esp h2{
-        font-family: 'Ubuntu';
-        font-weight: 300;
         font-size: 1.75rem;
-        color: #FFFFFF;
     }
 
     .container-descricao2esp h3{
-        font-family: 'Ubuntu';
-         font-weight: 300;
          font-size: 1.75rem;
-         color: #FFFFFF; 
      }
 
      #videoesp {
         height: 350px;
-        border-radius: 20px;
     }
 }
 
