@@ -238,7 +238,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #A30CBC;
+    background-color: #d252e9;
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 20px;
@@ -452,72 +452,105 @@ body{
         transform: rotate(-55deg) translate(9px, -12px);
     }
 
-    .sobremim-texto-titulo h1{
-        font-size: 2.25rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.75rem;
-    }
-    .sobremim-imagem img{
+    .caixa-imgfll img{
         height: 350px;
+        border-radius: 50px;
     }
-    .slider{
-        height: 400px;
+
+    .container-titulofll h1{
+        font-family: 'Ubuntu';
+        font-weight: 400;
+        font-size: 3rem;
+        color: #FFFFFF;
     }
-    .slides{
-        height: 350px;
-    }
-    .slide-container-titulo h1{
-        font-size: 2.25rem;
-    }
-    .slide-container-descricao h2{
+
+    .container-descricao1fll h2{
+        font-family: 'Ubuntu';
+        font-weight: 300;
         font-size: 1.75rem;
-    }
-    .btn-saibamais a{
-        font-size: 1.5rem;
-    }
-    .btn-saibamais{
-        width: 13%;
-        height: 30px;
-    }
-    .navigation-manual{
-        margin-top: 350px;
+        color: #FFFFFF;
     }
 
-    .manual-btn{
-        border: 2px solid #600f6e;
-        padding: 6px;
-        border-radius: 15px;
+    .container-descricao2fll h3{
+        font-family: 'Ubuntu';
+         font-weight: 300;
+         font-size: 1.75rem;
+         color: #FFFFFF; 
+     }
+
+     #videofll {
+        height: 350px;
+        border-radius: 20px;
     }
 
-    .navigation-auto{
-        margin-top: 350px;
+    .caixa-imgbdf img{
+        height: 350px;
+        border-radius: 50px;
     }
 
-    .navigation-auto div{
-        border: 2px solid #600f6e;
-        border-radius: 15px;
-        padding: 6px;
-        transition: 1s;
+    .container-titulobdf h1{
+        font-family: 'Ubuntu';
+        font-weight: 400;
+        font-size: 3rem;
+        color: #0C0C0C;
     }
 
-    .rodape-titulo h5{
-        font-size: 2.5rem;
+    .container-descricao1bdf h2{
+        font-family: 'Ubuntu';
+        font-weight: 300;
+        font-size: 1.75rem;
+        color: #0C0C0C;
     }
-    .card-links-containers h6{
-        font-size: 2rem;
+
+    .container-descricao2bdf a{
+        font-family: 'Ubuntu';
+        font-weight: 300;
+        font-size: 1.75rem;
+        color: #0C0C0C; 
+        text-decoration: underline;
     }
-    
-    .card-links-containers h7{
-        font-size: 2rem;
+
+    .container-descricao2bdf h3{
+        font-family: 'Ubuntu';
+         font-weight: 300;
+         font-size: 1.75rem;
+         color: #0C0C0C; 
+     }
+
+    #videobdf {
+        height: 350px;
+        border-radius: 20px;
     }
-    
-    .card-links-containers h8{
-        font-size: 2rem;
+
+    .caixa-imgesp img{
+        height: 350px;
+        border-radius: 50px;
     }
-    
-    .card-links-containers img{
-        height: 75px;
+
+    .container-tituloesp h1{
+        font-family: 'Ubuntu';
+        font-weight: 400;
+        font-size: 3rem;
+        color: #FFFFFF;
+    }
+
+    .container-descricao1esp h2{
+        font-family: 'Ubuntu';
+        font-weight: 300;
+        font-size: 1.75rem;
+        color: #FFFFFF;
+    }
+
+    .container-descricao2esp h3{
+        font-family: 'Ubuntu';
+         font-weight: 300;
+         font-size: 1.75rem;
+         color: #FFFFFF; 
+     }
+
+     #videoesp {
+        height: 350px;
+        border-radius: 20px;
     }
 }
 
@@ -556,72 +589,68 @@ body{
         transform: rotate(-55deg) translate(6px, -10px);
     }
 
-    .sobremim-texto-titulo h1{
-        font-size: 2rem;
-    }
-    .sobremim-texto-descricao h2{
-        font-size: 1.5rem;
-    }
-    .sobremim-imagem img{
+    .caixa-imgfll img{
         height: 300px;
     }
-    .slider{
-        height: 350px;
+
+    .container-titulofll h1{
+        font-size: 2.75rem;
     }
-    .slides{
-        height: 300px;
-    }
-    .slide-container-titulo h1{
-        font-size: 2rem;
-    }
-    .slide-container-descricao h2{
+
+    .container-descricao1fll h2{
         font-size: 1.5rem;
     }
-    .btn-saibamais a{
-        font-size: 1.25rem;
-    }
-    .btn-saibamais{
-        width: 15%;
-        height: 30px;
-    }
-    .navigation-manual{
-        margin-top: 300px;
+
+    .container-descricao2fll h3{
+         font-size: 1.5rem;
+     }
+
+     #videofll {
+        height: 300px;
     }
 
-    .manual-btn{
-        border: 2px solid #600f6e;
-        padding: 6px;
-        border-radius: 15px;
+    .caixa-imgbdf img{
+        height: 300px;
     }
 
-    .navigation-auto{
-        margin-top: 300px;
+    .container-titulobdf h1{
+        font-size: 2.75rem;
     }
 
-    .navigation-auto div{
-        border: 2px solid #600f6e;
-        border-radius: 15px;
-        padding: 6px;
-        transition: 1s;
+    .container-descricao1bdf h2{
+        font-size: 1.5rem;
     }
 
-    .rodape-titulo h5{
-        font-size: 2.25rem;
+    .container-descricao2bdf a{
+        font-size: 1.5rem;
     }
-    .card-links-containers h6{
-        font-size: 1.75rem;
+
+    .container-descricao2bdf h3{
+         font-size: 1.5rem;
+     }
+
+    #videobdf {
+        height: 300px;
     }
-    
-    .card-links-containers h7{
-        font-size: 1.75rem;
+
+    .caixa-imgesp img{
+        height: 300px;
     }
-    
-    .card-links-containers h8{
-        font-size: 1.75rem;
+
+    .container-tituloesp h1{
+        font-size: 2.75rem;
     }
-    
-    .card-links-containers img{
-        height: 65px;
+
+    .container-descricao1esp h2{
+        font-size: 1.5rem;
+    }
+
+    .container-descricao2esp h3{
+         font-size: 1.5rem;
+     }
+
+     #videoesp {
+        height: 300px;
     }
 }
 
@@ -660,72 +689,68 @@ body{
         transform: rotate(-55deg) translate(6px, -10px);
     }
 
-    .sobremim-texto-titulo h1{
-        font-size: 1.75rem;
+    .caixa-imgfll img{
+        height: 275px;
     }
-    .sobremim-texto-descricao h2{
+
+    .container-titulofll h1{
+        font-size: 2.5rem;
+    }
+
+    .container-descricao1fll h2{
         font-size: 1.25rem;
     }
-    .sobremim-imagem img{
-        height: 250px;
+
+    .container-descricao2fll h3{
+         font-size: 1.25rem;
+     }
+
+     #videofll {
+        height: 275px;
     }
-    .slider{
-        height: 300px;
+
+    .caixa-imgbdf img{
+        height: 275px;
     }
-    .slides{
-        height: 250px;
+
+    .container-titulobdf h1{
+        font-size: 2.5rem;
     }
-    .slide-container-titulo h1{
-        font-size: 1.75rem;
-    }
-    .slide-container-descricao h2{
+
+    .container-descricao1bdf h2{
         font-size: 1.25rem;
     }
-    .btn-saibamais a{
+
+    .container-descricao2bdf a{
         font-size: 1.25rem;
     }
-    .btn-saibamais{
-        width: 15%;
-        height: 30px;
-    }
-    .navigation-manual{
-        margin-top: 255px;
+
+    .container-descricao2bdf h3{
+         font-size: 1.25rem;
+     }
+
+    #videobdf {
+        height: 275px;
     }
 
-    .manual-btn{
-        border: 2px solid #600f6e;
-        padding: 6px;
-        border-radius: 15px;
+    .caixa-imgesp img{
+        height: 275px;
     }
 
-    .navigation-auto{
-        margin-top: 255px;
+    .container-tituloesp h1{
+        font-size: 2.5rem;
     }
 
-    .navigation-auto div{
-        border: 2px solid #600f6e;
-        border-radius: 15px;
-        padding: 6px;
-        transition: 1s;
+    .container-descricao1esp h2{
+        font-size: 1.25rem;
     }
 
-    .rodape-titulo h5{
-        font-size: 2rem;
-    }
-    .card-links-containers h6{
-        font-size: 1.5rem;
-    }
-    
-    .card-links-containers h7{
-        font-size: 1.5rem;
-    }
-    
-    .card-links-containers h8{
-        font-size: 1.5rem;
-    }
-    
-    .card-links-containers img{
-        height: 60px;
+    .container-descricao2esp h3{
+         font-size: 1.25rem;
+     }
+
+     #videoesp {
+        height: 275px;
     }
 }
 
