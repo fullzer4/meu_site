@@ -174,7 +174,7 @@ body{
 }
 
 .caixa-imgfll img{
-    height: 375px;
+    height: 400px;
     border-radius: 50px;
 }
 
@@ -194,7 +194,7 @@ body{
 .container-titulofll h1{
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.25rem;
     color: #FFFFFF;
 }
 
@@ -259,7 +259,7 @@ body{
 }
 
 .caixa-imgbdf img{
-    height: 375px;
+    height: 400px;
     border-radius: 50px;
 }
 
@@ -279,7 +279,7 @@ body{
 .container-titulobdf h1{
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.25rem;
     color: #0C0C0C;
 }
 
@@ -326,7 +326,7 @@ body{
 }
 
 #videobdf {
-    height: 425px;
+    height: 400px;
     border-radius: 20px;
 }
 
@@ -353,7 +353,7 @@ body{
 }
 
 .caixa-imgesp img{
-    height: 375px;
+    height: 400px;
     border-radius: 50px;
 }
 
@@ -373,7 +373,7 @@ body{
 .container-tituloesp h1{
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #FFFFFF;
 }
 
