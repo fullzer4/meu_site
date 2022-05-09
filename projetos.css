@@ -1070,19 +1070,19 @@ body{
     }
 
     .caixa-imgfll img{
-        height: 200px;
+        height: 250px;
     }
 
     .container-titulofll h1{
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .container-descricao1fll h2{
-        font-size: 0.95rem;
+        font-size: 1.25rem;
     }
 
     .container-descricao2fll h3{
-         font-size: 0.95rem;
+         font-size: 1.25rem;
      }
 
      #videofll {
@@ -1090,23 +1090,23 @@ body{
     }
 
     .caixa-imgbdf img{
-        height: 200px;
+        height: 250px;
     }
 
     .container-titulobdf h1{
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .container-descricao1bdf h2{
-        font-size: 0.95rem;
+        font-size: 1.25rem;
     }
 
     .container-descricao2bdf a{
-        font-size: 0.95rem;
+        font-size: 1.25rem;
     }
 
     .container-descricao2bdf h3{
-         font-size: 0.95rem;
+         font-size: 1.25rem;
      }
 
     #videobdf {
@@ -1114,23 +1114,23 @@ body{
     }
 
     .caixa-imgesp img{
-        height: 200px;
+        height: 250px;
     }
 
     .container-tituloesp h1{
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .container-descricao1esp h2{
-        font-size: 0.95rem;
+        font-size: 1.25rem;
     }
 
     .container-descricao2esp h3{
-         font-size: 0.95rem;
+         font-size: 1.25rem;
      }
 
      #videoesp {
-        height: 200px;
+        height: 250px;
     }
 
     .projetobdf , .projetoesp, .projetofll{
@@ -1151,9 +1151,13 @@ body{
         text-align: center;
         justify-content: center;
     }
+
+    .projetobdf, .projetoesp, .projetofll{
+        gap: 10px;
+    }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 300px){
     #menu {
         height: 40px;
     }
@@ -1188,5 +1192,72 @@ body{
         transform: rotate(-55deg) translate(4px, -11px);
     }
 
-    
+    .caixa-imgfll img{
+        height: 225px;
+    }
+
+    .container-titulofll h1{
+        font-size: 1.75rem;
+    }
+
+    .container-descricao1fll h2{
+        font-size: 1rem;
+    }
+
+    .container-descricao2fll h3{
+         font-size: 1rem;
+     }
+
+     #videofll {
+        height: 150px;
+    }
+
+    .caixa-imgbdf img{
+        height: 225px;
+    }
+
+    .container-titulobdf h1{
+        font-size: 1.75rem;
+    }
+
+    .container-descricao1bdf h2{
+        font-size: 1rem;
+    }
+
+    .container-descricao2bdf a{
+        font-size: 1rem;
+    }
+
+    .container-descricao2bdf h3{
+         font-size: 1rem;
+     }
+
+    #videobdf {
+        height: 150px;
+    }
+
+    .caixa-imgesp img{
+        height: 225px;
+    }
+
+    .container-tituloesp h1{
+        font-size: 1.75rem;
+    }
+
+    .container-descricao1esp h2{
+        font-size: 1rem;
+    }
+
+    .container-descricao2esp h3{
+         font-size: 1rem;
+     }
+
+     #videoesp {
+        height: 225px;
+    }
+
+    .projetobdf , .projetoesp, .projetofll{
+        padding-right: 5px;
+        padding-left: 5px;
+    } 
 }
