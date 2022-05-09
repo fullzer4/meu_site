@@ -1145,6 +1145,12 @@ body{
     .linha2fll, .linha2esp, .linha1bdf{
         flex-direction: column-reverse;
     }
+
+    .container-titulofll, .container-titulobdf, .container-tituloesp, .container-descricao1fll, .container-descricao2fll, 
+    .container-descricao2bdf, .container-descricao1bdf, .container-descricao1esp, .container-descricao2esp{
+        text-align: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 500px){
