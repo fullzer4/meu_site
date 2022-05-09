@@ -301,6 +301,34 @@ body{
     .hanima3{
         transform: rotate(-55deg) translate(9px, -12px);
     }
+
+    .container-imagem-2-retrato img{
+        height: 400px;
+    }
+
+    .container-imagem-2 img{
+        height: 400px;
+    }
+
+    .container-descricao-2 h2{
+        font-size: 2rem;
+    }
+
+    .container-descricao-2 h1{
+        font-size: 2.75rem;
+    }
+
+    .container-imagem-1 img{
+        height: 400px;
+    }
+
+    .container-descricao-1 h1{
+        font-size: 2.75rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 1450px){
@@ -336,6 +364,34 @@ body{
     
     .hanima3{
         transform: rotate(-55deg) translate(6px, -10px);
+    }
+
+    .container-imagem-2-retrato img{
+        height: 375px;
+    }
+
+    .container-imagem-2 img{
+        height: 375px;
+    }
+
+    .container-descricao-2 h2{
+        font-size: 1.75rem;
+    }
+
+    .container-descricao-2 h1{
+        font-size: 2.5rem;
+    }
+
+    .container-imagem-1 img{
+        height: 375px;
+    }
+
+    .container-descricao-1 h1{
+        font-size: 2.5rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 1.75rem;
     }
 
 }
@@ -374,10 +430,36 @@ body{
     .hanima3{
         transform: rotate(-55deg) translate(6px, -10px);
     }
+    .container-imagem-2-retrato img{
+        height: 360px;
+    }
 
+    .container-imagem-2 img{
+        height: 325px;
+    }
+
+    .container-descricao-2 h2{
+        font-size: 1.65rem;
+    }
+
+    .container-descricao-2 h1{
+        font-size: 2.35rem;
+    }
+
+    .container-imagem-1 img{
+        height: 325px;
+    }
+
+    .container-descricao-1 h1{
+        font-size: 2.35rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 1.65rem;
+    }
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1150px){
     #menu {
         height: 40px;
     }
@@ -412,6 +494,36 @@ body{
         transform: rotate(-55deg) translate(5px, -10px);
     }
 
+    .container-imagem-2-retrato img{
+        height: 360px;
+    }
+
+    .container-imagem-2 img{
+        height: 280px;
+    }
+
+    .container-descricao-2 h2{
+        font-size: 1.35rem;
+    }
+
+    .container-descricao-2 h1{
+        font-size: 2rem;
+    }
+
+    .container-imagem-1 img{
+        height: 280px;
+    }
+    .container-descricao-1 h1{
+        font-size: 2rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 1.35rem;
+    }
+
+    #conteudo{
+        padding: 30px;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -447,6 +559,33 @@ body{
     
     .hanima3{
         transform: rotate(-55deg) translate(5px, -10px);
+    }
+
+    .container-imagem-2-retrato img{
+        height: 300px;
+    }
+
+    .container-imagem-2 img{
+        height: 255px;
+    }
+
+    .container-descricao-2 h2{
+        font-size: 1.10rem;
+    }
+
+    .container-descricao-2 h1{
+        font-size: 1.75rem;
+    }
+
+    .container-imagem-1 img{
+        height: 255px;
+    }
+    .container-descricao-1 h1{
+        font-size: 1.75rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 1.10rem;
     }
 
 }
@@ -486,6 +625,32 @@ body{
         transform: rotate(-55deg) translate(4px, -6px);
     }
 
+    .container-imagem-2-retrato img{
+        height: 265px;
+    }
+
+    .container-imagem-2 img{
+        height: 210px;
+    }
+
+    .container-descricao-2 h2{
+        font-size: 0.9rem;
+    }
+
+    .container-descricao-2 h1{
+        font-size: 1.5rem;
+    }
+
+    .container-imagem-1 img{
+        height: 210px;
+    }
+    .container-descricao-1 h1{
+        font-size: 1.5rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 0.9rem;
+    }
 }
 
 /*celular*/
@@ -525,6 +690,31 @@ body{
         transform: rotate(-55deg) translate(6px, -6px);
     }
 
+    .container-conteudo-1{
+        flex-direction: column;
+    }
+    .container-conteudo-2{
+        flex-direction: column-reverse;
+    }
+
+    .container-descricao-2 h1{
+        text-align: center;
+    }
+    .container-descricao-2 h2{
+        text-align: center;
+    }
+
+    .container-descricao-1 h1{
+        text-align: center;
+    }
+    .container-descricao-1 h2{
+        text-align: center;
+    }
+
+    #conteudo{
+        padding: 15px;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 300px){
@@ -560,5 +750,32 @@ body{
     
     .hanima3{
         transform: rotate(-55deg) translate(4px, -11px);
+    }
+
+    .container-imagem-2-retrato img{
+        height: 220px;
+    }
+
+    .container-imagem-2 img{
+        height: 160px;
+    }
+
+    .container-descricao-2 h2{
+        font-size: 0.8rem;
+    }
+
+    .container-descricao-2 h1{
+        font-size: 1.3rem;
+    }
+
+    .container-imagem-1 img{
+        height: 160px;
+    }
+    .container-descricao-1 h1{
+        font-size: 1.3rem;
+    }
+    
+    .container-descricao-1 h2{
+        font-size: 0.8rem;
     }
 }
