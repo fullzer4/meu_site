@@ -1091,7 +1091,7 @@ body{
     }
     
     #menu-botao{
-        max-width: 50px;
+        max-width: 30px;
         padding: 5px;
     }
     
@@ -1224,7 +1224,7 @@ body{
     }
     
     #menu-botao{
-        max-width: 50px;
+        max-width: 30px;
         padding: 5px;
     }
     
@@ -1247,17 +1247,18 @@ body{
 
     .sobremim{
         flex-direction: column-reverse;
-        padding: 25px
+        padding: 25px;
+        gap: 20px;
     }
 
     .sobremim-texto-titulo h1{
-        font-size: 1.35rem;
+        font-size: 1.2rem;
     }
     .sobremim-texto-descricao h2{
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
     .sobremim-imagem img{
-        height: 200px;
+        height: 190px;
     }
     .slider{
         height: 550px;
@@ -1273,10 +1274,10 @@ body{
     }
 
     .slide-container-titulo h1{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .slide-container-descricao h2{
-        font-size: 0.95rem;
+        font-size: 0.85rem;
     }
 
     .slide img{
@@ -1288,7 +1289,7 @@ body{
         font-size: 0.75rem;
     }
     .btn-saibamais{
-        width: 22%;
+        width: 23%;
         height: 20px;
     }
     .navigation-manual{
